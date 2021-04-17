@@ -1,0 +1,821 @@
+
+@font-face {
+    font-family: 'policereservia';
+    src: url('raleway-regular-webfont.eot');
+    src: url('raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway-regular-webfont.woff') format('woff'),
+         url('raleway-regular-webfont.ttf') format('truetype'),
+         url('raleway-regular-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'policereserviabold';
+    src: url('raleway-bold-webfont.eot');
+    src: url('raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway-bold-webfont.woff') format('woff'),
+         url('raleway-bold-webfont.ttf') format('truetype'),
+         url('raleway-bold-webfont.svg#ralewaybold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1 {
+   font-family: 'policereserviabold';
+    font-size: 16px;
+}
+h2 {
+    font-family: 'policereserviabold';
+    font-size: 12px;
+}
+
+h3 {
+    font-family: 'policereservia';
+    font-size: 13px;
+}
+
+#section1 p {
+    font-family: 'policereservia';
+    font-size: 13px; 
+}
+#annonce h5 {
+    font-family: 'policereservia';
+    font-size: 13px; 
+}
+
+
+
+header {
+    display: flex; 
+}
+
+#logo img {
+    width: 100px; 
+    height: 50px; 
+   
+}
+
+#logomenus {
+    display: flex; 
+   
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex; 
+}
+
+nav ul strong {
+    font-family: 'policereserviabold'; 
+
+}
+
+#menu2 {
+    order: -1
+}
+
+#menu1 {
+    border-top: 2px solid #0065FC;
+    margin-left: 500px; 
+    margin-top: 30px; 
+    
+
+}
+
+#menu2 {
+    margin-left: 30px; 
+    
+}
+#menu3 {
+    margin-left: 30px; 
+
+}
+
+#menu1 a {
+    color: #0065FC;
+    text-decoration: none;
+    
+       
+}
+
+#menu2 a {
+    color: black;
+    text-decoration: none;
+
+}
+
+#menu3 a {
+    color: #0065FC;
+    text-decoration: none;   
+    
+}
+
+#menu1 a:visited  #menu3 a:visited {
+    color: #0065FC;
+}
+
+
+#menu2 a:visited {
+    color: black;
+}
+
+
+
+#section3 a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+#section3 a:visited {
+    color: black;
+}
+
+#bouton {
+    background: #0065FC;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+    border-color :#0065FC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#section1 form i {
+    border: 2px solid #F2F2F2;
+    padding-top: 8px;
+    padding-bottom: 11px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px 0px 0px 10px;
+    background: #F2F2F2;
+    color: black;
+    
+    
+
+}
+
+
+#section2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+i {
+    color: #0065FC;
+}
+#section3 {
+    display: flex;
+    
+}
+#hebergementsamarseille  {
+    
+    
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+   
+}
+
+#premierconteneur {
+    display: flex;
+    justify-content: space-between; 
+}
+
+#prix1, #prix2, #prix3, #prix4, #prix5, #prix6, #prix7, #prix8, #prix9 {
+    margin-top: 3px; 
+   
+
+}
+#stars1, #stars2, #stars3, #stars4, #stars5, #stars6 {
+   margin-top: 5px; 
+    
+    
+}
+
+
+#hebergementone, #hebergementfour {
+    background-color: white;
+    border-radius: 10px;   
+    padding-bottom: 5px;
+    
+  
+   
+}
+#hebergementtwo, #hebergementthree, #hebergementfive, #hebergementsix {
+    background-color: white;
+    border-radius: 10px;   
+    margin-left: 30px;
+    padding-bottom: 5px;
+}
+
+
+#secondconteneur {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+
+}
+
+#lespluspopulaires {
+    margin-left: 30px;
+    padding-top: 20px;
+    background-color: #F2F2F2;   
+    border-radius: 20px;
+    padding-left: 30px;
+  
+}
+   
+.titlelpp {
+    margin-left: 100px;  
+    font-family: 'policereservia';
+    padding-right: 30px;
+    font-size: 11px;   
+     
+}
+
+.starslpp {
+
+    position: relative;
+    top: 10px;
+    margin-left: 100px;
+    font-size: 10px; 
+}
+
+
+.hebergementlpp {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 30px;
+    margin-top: 30px;
+   
+}
+
+
+.imageflottante {
+    float: left;
+}
+.dessous {
+    clear: left;
+}
+
+.piclpp {
+    margin-left: 3px;
+    margin-bottom: 3px;
+    border-radius: 10px 0px 0px 10px;
+       
+}
+
+
+#hebergement1, #hebergement2, #hebergement3, #hebergement4, #hebergement5, 
+#hebergement6 {
+    border-radius: 10px 10px 0px 0px;
+    margin-left:5px;
+    margin-right: 5px;
+}
+
+#text1, #text2, #text3, #text4, #text5, #text6 {
+    margin-left: 10px;   
+    font-family: 'policereservia';
+    font-size: 10px; 
+    
+}
+
+#text1 strong, #text2 strong, #text3 strong, #text4 strong, #text5 strong, #text6 strong, 
+#textlpp1 strong, #textlpp2 strong, #textlpp3 strong {
+    font-family: 'policereserviabold';
+    font-size: 12px;
+}
+
+#lespluspopulaires h1 i {
+    color: black;
+    margin-left: 80px;
+
+}
+
+#sectionfiltres {
+    display: flex;
+    font-family: 'policereserviabold';
+    font-size: 14px;  
+}
+
+#choixfiltres {
+    display: flex; 
+}
+
+#signefiltre1, #signefiltre2, #signefiltre3, #signefiltre4 {
+    display: flex; 
+    border: 2px solid #F2F2F2;
+    border-radius: 30px 30px 30px 30px;
+    margin-left: 30px;
+    border-left-color: #DEEBFF;
+    
+    
+}
+
+#signe1, #signe2, #signe3, #signe4 {
+   
+    border : 10px solid #DEEBFF;
+    border-radius: 50px/50px;
+    background-color: #DEEBFF;
+   
+}
+ 
+#economique, #familial, #romantique, #animaux {
+    margin-left: 10px; 
+    margin-right: 10px;
+    margin-top: 10px;    
+  
+}
+
+    
+#economique:hover, #familial:hover, #romantique:hover, #animaux:hover {
+    text-decoration: underline;
+    color: pink;
+}
+
+#lieu {
+    border: 2px solid  #F2F2F2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    font-weight: bold;
+    font-family: 'policereserviabold';
+    font-size: 14px;
+    
+}
+
+/*partie activités à marseille */
+
+#section4 h1 {
+    margin-top: 30px;
+}
+
+#containermarseille {
+    margin-top: 10px;
+    display: flex;
+     
+}
+.onepic {
+  
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.titleactivity {
+    margin-left: 10px;
+    padding-bottom: 0.8px;  
+    font-family: 'policereserviabold';
+    font-size: 12px;
+    box-shadow: 6px 6px 6px #F2F2F2;
+    border-radius: 0px 0px 20px 20px;  
+}
+
+.activitymarseille, .activitymarseille1 {
+    margin-left: 30px;       
+}
+
+.activitymarseille1 {
+    margin-top: 30px;
+}
+
+.photoactivity, .imgmarseille {
+    border-radius : 20px 20px 0px 0px;  
+    box-shadow: 6px 6px 6px #F2F2F2;
+}
+.activitymarseille a, .activitymarseille1 a {
+    color: black;
+    text-decoration: none;
+}
+
+.activitymarseille a:visited, .activitymarseille1 a:visited {
+    color:black;
+}
+
+/*fin*/
+
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: black;
+}
+
+#hebergementone a, #hebergementtwo a, #hebergementthree a, #hebergementfour a,
+#hebergementfive a, #hebergementsix a, #hebergementseven a, #hebergementeight a,
+#hebergementnine a {
+    color: black;
+    text-decoration: none;
+}
+
+#hebergementone a:visited, #hebergementtwo a:visited, #hebergementthree a:visited, 
+#hebergementfour a:visited, #hebergementfive a:visited, #hebergementsix a:visited,
+#hebergementseven a:visited, #hebergementeight a:visited, #hebergementnine a:visited {
+    color:black;
+}
+ 
+
+
+
+#footer {
+    display: flex;
+    background: #F2F2F2;
+    margin-top: 30px;
+    
+      
+}
+
+#apropos {
+    margin-top: 30px;
+    font-family: 'policereserviabold';
+    font-size: 14px;
+}
+.hebergementassistance {
+    margin-left: 200px;
+    margin-top: 30px;
+    font-family: 'policereserviabold';
+    font-size: 14px;
+    
+}
+  
+#apropos a, .hebergementassistance a {
+    font-family: 'policereservia';
+    font-size: 13px; 
+    
+}
+
+
+@media all and (max-device-width: 768px) {
+    
+
+    h1 {
+        font-size: 60px;
+     }
+    h2 {
+         font-size: 20px;
+     }
+
+   
+
+    #section1 p {
+        font-family: 'policereservia'; 
+        font-size: 15px; 
+        margin-left: 30px; 
+
+    }
+   #annonce h4 {
+       font-family: 'policereservia'; 
+       font-size: 15px; 
+       margin-left: 30px; 
+
+
+   }
+   #logomenus h3 {
+       font-size: 40px; 
+
+   }
+   nav ul h3 {
+       font-size: 40px; 
+
+   }
+
+    #stars1, #stars2, #stars3, #stars4, #stars5, #stars6 {
+        font-size: 20px; 
+        margin-top: 15px; 
+
+    }
+
+    .stars7, .stars8, .stars9 {
+        font-size: 40px; 
+        margin-left: 450px; 
+        margin-top: 140px; 
+
+    }
+
+
+    #logo img {
+        width: 300px; 
+        height: 100px; 
+        margin-left: 30px; 
+           
+    }
+
+    #logomenus {
+    display: block; 
+    }
+    
+    nav ul {
+    list-style-type: none;
+    display: block; 
+   
+    }
+
+    #menu3 {
+        margin-left: 200px; 
+        
+    }
+    #menu1 {
+        border-bottom: 3px solid blue; 
+        border-top: none; 
+        margin-left: 90px; 
+       
+    
+    }
+    #menu2 {
+        border-bottom: 3px solid #F2F2F2; 
+        margin-left: 250px; 
+        margin-top: 60px;  
+       
+    }
+
+
+     
+    #textlpp1 strong, #textlpp2 strong, #textlpp3 strong {
+    font-size: 45px; 
+    }
+     #textlpp1, #textlpp2, #textlpp3 {
+        font-size: 38px;
+    }
+
+
+    #lespluspopulaires {
+        font-size: 40px; 
+    }
+
+
+    #lespluspopulaires h1 i {
+        margin-left: 250px; 
+    
+    }
+
+    
+    #text1 strong, #text2 strong, #text3 strong, #text4 strong, #text5 strong, #text6 strong {
+        font-size: 20px; 
+    }
+
+    #text1, #text2, #text3, #text4, #text5, #text6 {
+        font-size: 15px; 
+    }
+
+    #section3 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #premierconteneur, #secondconteneur {
+        display: block;
+    }
+    
+    #containermarseille, .containeractivity {
+        display: block; 
+
+    }
+
+    #footer {
+        display: block;
+    }
+
+
+
+    #section1 h1 {
+        margin-left: 30px; 
+    }
+
+    #section1 h3 {
+        margin-left: 30px; 
+    }
+
+   
+    
+    #topsection #logo {
+        margin-left: 30px; 
+        
+    }
+    
+
+    #filtres {
+       
+        margin-left: 30px; 
+       
+     
+    }
+    #choixfiltres {
+    
+    flex-wrap: wrap;
+    
+    
+    }
+
+    #sectionfiltres{
+        display: block; 
+        font-size: 40px; 
+        
+    }
+
+
+    #signefiltre1, #signefiltre2, #signefiltre3, #signefiltre4 {
+        
+        margin-top: 30px; 
+        border-radius: 100px 100px 100px 100px;    
+        border: 5px solid #F2F2F2;    
+        
+    }
+
+    #signefiltre1, #signefiltre3 {
+        width: 40%; 
+    }
+    #signefiltre2 {
+        width: 30%;
+    }
+    #signefiltre4 {
+        width: 55%; 
+    }
+
+ 
+  
+
+    #lespluspopulaires {
+        margin-left: 0px;
+        border-radius: 0px;
+        padding-top: 50px; 
+             
+    }
+    #hebergementseven {
+        margin-top: 100px; 
+    }
+    
+   
+    #hebergementseven #textlpp1, #hebergementeight #textlpp2, #hebergementnine #textlpp3 {
+        margin-left: 450px; 
+        margin-top: 50px; 
+    }
+
+
+    #hebergementseven .stars1, #hebergementeight .stars2, #hebergementnine .stars3 {
+        margin-left: 450px; 
+        margin-top: 150px; 
+        
+    }
+
+    #hebergement7, #hebergement8, #hebergement9 {
+    width: 400px;
+    height: 400px;
+    
+    }
+   
+    #hebergementseven, #hebergementeight, #hebergementnine {
+        border-radius: 70px; 
+        margin-bottom: 40px; 
+        
+    }
+    #hebergement7, #hebergement8, #hebergement9 {
+        border-radius: 60px 0px 0px 60px; 
+
+    }
+
+    #hebergementsamarseille {
+        background-color: white; 
+        margin-top: 50px; 
+    }
+
+    #hebergementone {
+        padding-top: 50px;
+
+    }
+
+    
+
+    #hebergementone, #hebergementtwo, #hebergementthree, #hebergementfour, #hebergementfive, #hebergementsix {
+        margin-bottom: 60px; 
+        border-radius: 60px 60px 60px 60px; 
+        box-shadow: 20px 20px 20px #F2F2F2;
+
+    }
+
+    #hebergement1, #hebergement2, #hebergement3, #hebergement4, #hebergement5, #hebergement6 {
+        width: 840px;
+        height: 350px;
+        border-radius: 60px 60px 0px 0px;
+           
+    } 
+   
+
+    #hebergementone #text1, #hebergementtwo #text2, #hebergementthree #text3, #hebergementfour #text4, #hebergementfive #text5, #hebergementsix #text6 {
+        
+        margin-bottom: 50px; 
+    }
+
+    #hebergementnine {
+        margin-bottom: 100px; 
+    }
+  
+    #section4 {
+        margin-top: 100px; 
+        margin-left: 30px; 
+        margin-right: 30px; 
+    }
+
+
+    .photoactivity {
+        width: 840px; 
+        height: 450px; 
+        border-radius: 60px 60px 0px 0px;
+
+    }
+  
+    .imgmarseille {
+        object-fit: cover;
+        object-position: -20% 40;
+        width: 840px; 
+        height: 450px; 
+        border-radius: 60px 60px 0px 0px;
+        
+    }
+
+
+
+
+    .activitymarseille, .activitymarseille1 {
+        margin-bottom: 60px; 
+        border-radius: 60px 60px 60px 60px; 
+        text-shadow: 20px 20px 20px #F2F2F2;
+        
+    }
+    .titleactivity {
+        font-size: 20px; 
+    }
+
+
+
+
+
+
+    #footer {
+        margin-top: 150px; 
+
+        
+    }
+
+    #lieu, #bouton {
+        font-size: 40px; 
+    }
+    form i {
+        font-size: 40px; 
+        margin-left: 30px; 
+    }
+    #apropos, .hebergementassistance {
+        padding-top: 100px; 
+        margin-left: 30px; 
+        font-size: 25px; 
+    }
+    #apropos a, .hebergementassistance a {
+        font-size: 20px; 
+    }
+    #assistance {
+        padding-bottom: 150px; 
+    }
+    #lespluspopulaires h1 i {
+      
+        margin-left: 200px; 
+    }
+
+
+}
+
+
+
+
+   
+
+   
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
