@@ -325,10 +325,12 @@ i {
 #hebergementsamarseille  {
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 20px;
+    padding-top: 10px;
     background-color: #F2F2F2;
     border-radius: 20px;  
+    
 }
+
 
 #hebergementsamarseille h3 {
     font-family: 'policereserviabold';
@@ -337,7 +339,8 @@ i {
 .containerhebergement {
     display: flex;
     justify-content: space-between; 
-    margin-top: 30px; 
+     
+    
 }
 .prixhebergement {
     margin-top: 3px;   
@@ -347,25 +350,54 @@ i {
    font-size: 11px;       
 }
 .hebergement  {
-    background-color: white;
-    border-radius: 10px;   
-    padding-bottom: 5px;
+    
+    border-radius: 10px 10px 10px 10px;   
+   
     margin-left: 30px; 
+    margin-top: 10px; 
+    border: 2px solid white;  
+    
+    
+   
+   
+    
+    
+    
 }
 .hebergementpic {
-    border-radius: 10px 10px 0px 0px;
-    margin-left:5px;
-    margin-right: 5px;
+  border-radius: 10px 10px 0px 0px; 
+  
+    
+    
+    
+  
+    
+   
+    
+
 }
 .titlehebergement {
     margin-left: 10px;   
     font-family: 'policereservia';
-    font-size: 11px;    
+    font-size: 11px; 
+    border: 2px solid white; 
+    
+    
+
+     
+  
+    
+    
 }
 .titlehebergement strong {
     font-family: 'policereserviabold';
     font-size: 12px;
+   
 }
+
+
+
+
 .hebergement a {
     color: black;
     text-decoration: none;
@@ -562,7 +594,7 @@ i {
     margin-top: 30px;
 }
 
-.photoactivity, .imgmarseille {
+.photoactivity {
     border-radius : 20px 20px 0px 0px;  
     box-shadow: 6px 6px 6px #F2F2F2;
 }
@@ -585,35 +617,52 @@ i {
         margin-right: 30px; 
     }
     .photoactivity {
-        width: 840px; 
-        height: 450px; 
-        border-radius: 60px 60px 0px 0px;
-    }
-    .imgmarseille {
         object-fit: cover;
-        object-position: -20% 40;
+        object-position: -60% 70;
         width: 840px; 
         height: 450px; 
         border-radius: 60px 60px 0px 0px;   
+       
     }
+        
     .activitymarseille, .activitymarseille1 {
         margin-bottom: 60px; 
         border-radius: 60px 60px 60px 60px; 
-        text-shadow: 20px 20px 20px #F2F2F2;   
+        text-shadow: 20px 20px 20px #F2F2F2; 
+        box-shadow: 20px 20px 20px #F2F2F2;
+        margin-right: 30px; 
+        
     }
     .titleactivity {
         font-size: 20px; 
+        padding-bottom: 40px;
+        padding-top: 50px; 
     }
+    .onepic .titleactivity {
+        font-size: 45px; 
+
+    }
+
+      
+
+        
+
+    
+       
+    }
+
+
+    
 }
 /*fin*/
 
 /* début partie footer */ 
 
-footer a {
+#footer a {
     color: black;
     text-decoration: none;
 }
-footer a:visited {
+#footer a:visited {
     color: black;
 }
 #footer {
