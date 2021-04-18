@@ -29,23 +29,27 @@ h1 {
 }
 h2 {
     font-family: 'policereserviabold';
-    font-size: 12px;
+    font-size: 14px;
 }
 
 h3 {
     font-family: 'policereservia';
-    font-size: 13px;
+    font-size: 12px;
 }
 
 
 @media all and (max-device-width: 768px) {
     
     h1 {
-        font-size: 60px;
+        font-size: 50px;
      }
     h2 {
          font-size: 20px;
      }
+
+    h3 {
+        font-size: 15px;
+    }
 }
 
 /* début partie header/menu */
@@ -162,13 +166,15 @@ i {
 
 #section1 form i {
     border: 2px solid #F2F2F2;
-    padding-top: 8px;
+    padding-top: 11px;
     padding-bottom: 11px;
     padding-right: 10px;
     padding-left: 10px;
     border-radius: 10px 0px 0px 10px;
     background: #F2F2F2;
     color: black;
+    font-size: 14px; 
+    
 } 
 #sectionfiltres {
     display: flex;
@@ -208,11 +214,10 @@ i {
     border: 2px solid  #F2F2F2;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 5px;
+    padding-left: 10px;
     font-weight: bold;
     font-family: 'policereserviabold';
-    font-size: 14px;
-    
+    font-size: 14px;   
 }
 
 @media all and (max-device-width: 768px) {
@@ -232,6 +237,7 @@ i {
     #filtres {
        
         margin-left: 30px;  
+        
     }
     #choixfiltres {
         flex-wrap: wrap;
@@ -239,12 +245,24 @@ i {
 
     #sectionfiltres{
         display: block; 
-        font-size: 40px;    
+        font-size: 40px; 
+           
+    }
+    .signe {
+        border: 30px solid #DEEBFF; 
     }
     #signefiltre1, #signefiltre2, #signefiltre3, #signefiltre4 {
         margin-top: 30px; 
         border-radius: 100px 100px 100px 100px;    
-        border: 5px solid #F2F2F2;       
+        border: 5px solid #F2F2F2;  
+        padding-right: 35px; 
+
+    }
+    .name {
+        margin-bottom: 20px; 
+        margin-top: 20px; 
+        margin-left: 20px; 
+        margin-right: 20px; 
     }
     #signefiltre1, #signefiltre3 {
         width: 40%; 
@@ -254,23 +272,30 @@ i {
     }
     #signefiltre4 {
         width: 55%; 
+        
     }
     #lieu, #bouton {
-        font-size: 40px; 
+        font-size: 45px; 
+        padding-left: 20px;
+        padding-top: 30px; 
+        padding-bottom: 30px;   
+       
     }
-    form i {
-        font-size: 40px; 
-        margin-left: 30px; 
+
+    #section1 form i {
+        font-size: 30px; 
+        margin-left: 10px; 
+        border: 15px solid #F2F2F2;
+        padding-top: 35px; 
+        padding-bottom: 25px; 
+        border-radius: 30px 0px 0px 30px;
+       
     }
+
 }
 /*fin*/
 
 /* section annonce */
-
-#section2 h5 {
-    font-family: 'policereservia';
-    font-size: 13px; 
-}
 
 @media all and (max-device-width: 768px) {
     #section2 h4 {
@@ -304,6 +329,11 @@ i {
     background-color: #F2F2F2;
     border-radius: 20px;  
 }
+
+#hebergementsamarseille h3 {
+    font-family: 'policereserviabold';
+    font-size: 12px; 
+}
 .containerhebergement {
     display: flex;
     justify-content: space-between; 
@@ -313,7 +343,8 @@ i {
     margin-top: 3px;   
 }
 .stars {
-   margin-top: 5px;        
+   margin-top: 5px;
+   font-size: 11px;       
 }
 .hebergement  {
     background-color: white;
@@ -329,7 +360,7 @@ i {
 .titlehebergement {
     margin-left: 10px;   
     font-family: 'policereservia';
-    font-size: 10px;    
+    font-size: 11px;    
 }
 .titlehebergement strong {
     font-family: 'policereserviabold';
@@ -381,7 +412,9 @@ i {
         
         margin-bottom: 50px; 
     }
-
+    #section3 h3 {
+        font-size: 15px; 
+    }
 }
 
 /* fin */ 
@@ -417,7 +450,7 @@ i {
     position: relative;
     top: 10px;
     margin-left: 100px;
-    font-size: 10px; 
+    font-size: 11px; 
 }
 .hebergementlpp {
     display: flex;
@@ -427,7 +460,7 @@ i {
     margin-top: 30px;   
 }
 
-.imageflottante {
+#imageflottante1, #imageflottante2, #imageflottante3 {
     float: left;
 }
 .dessous {
@@ -613,11 +646,9 @@ footer a:visited {
     #apropos, .hebergementassistance {
         padding-top: 100px; 
         margin-left: 30px; 
-        font-size: 25px; 
+        
     }
-    #apropos a, .hebergementassistance a {
-        font-size: 20px; 
-    }
+    
     #assistance {
         padding-bottom: 150px; 
     }
