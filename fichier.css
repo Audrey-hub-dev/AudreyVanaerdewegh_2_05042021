@@ -40,6 +40,9 @@ h3 {
 strong {
     font-family: 'policereserviabold';
 }
+i {
+    color: #0065FC;
+}
 
 @media all and (max-device-width: 768px) {
     
@@ -57,38 +60,46 @@ strong {
 
 /* début partie header/menu */
 
-header {
-    display: flex;
+#logoetmenus {
+    display:flex;	
 }
-#logo img {
-    width: 100px; 
-    height: 50px;    
+
+#menus23 {
+	display:flex; 
 }
-#logomenus {
-      
+
+#logomenu1 {
+	display: flex;
 }
-nav ul {
-    list-style-type: none;
-    display: flex; 
+
+#menu3 {
+	order: -1;
 }
-nav ul strong {
-    font-family: 'policereserviabold'; 
-}
-#menu2 {
-    order: -1
-}
-#menu1 {
-    border-top: 2px solid #0065FC;
-    margin-left: 500px; 
+#logo {
     margin-top: 30px; 
 }
-#menu2 {
-    margin-left: 30px;    
-}
-#menus3 {
+
+#menu1 h3 {
+    color:#0065FC;
+    border-top: 3px solid blue;
+    margin-left: 750px;  
+    padding-top: 20px; 
     
-    display: flex;
+   
 }
+
+#menu2 h3 {
+    color:#0065FC;
+    margin-left: 30px; 
+    margin-top: 35px; 
+}
+
+#menu3 h3 {
+    color: black;
+    margin-left: 30px; 
+    margin-top: 35px; 
+}
+
 #menu1 a {
     color: #0065FC;
     text-decoration: none;      
@@ -107,51 +118,58 @@ nav ul strong {
 #menu2 a:visited {
     color: black;
 }
-i {
-    color: #0065FC;
-}
 
 @media all and (max-device-width: 768px) {
 
-    #logomenus h3 {
-        font-size: 40px; 
-    }
-    nav ul h3 {
-        font-size: 40px; 
-    }
+ #logo img {
+     width: 85%; 
+ }
+    
+#menus23 {
+	display: block;
+}
 
-    #logo img {
-        width: 300px; 
-        height: 100px; 
-        margin-left: 30px;        
-    }
+#logomenu1 {
+	display: block; 
+}
 
-    #logomenus {
-    display: block; 
+
+    
+    #menu3 h3 {
+    
+        border-bottom: 10px solid #F2F2F2;
+        margin-left:0px;
+        font-size: 40px; 
+        margin-top:96px;
+        padding-left: 150px; 
+        padding-right: 120px; 
+        padding-bottom: 30px ; 
     }
     
-    nav ul {
-    list-style-type: none;
-    display: block; 
-    }
+    #menu1 h3 {
 
-    #menu3 {
-        margin-left: 200px;    
+    margin-left: 0px;
+    border-top: none; 
+    border-bottom: 10px solid blue;
+    font-size: 40px;
+    padding-left: 100px; 
+    padding-right: 150px; 
+    padding-top:0px;
+    padding-bottom: 30px;
+  
     }
-    #menu1 {
-        border: 3px solid blue; 
-        margin-left: 0px;
-        padding-right: 200px; 
-        margin-right: 0px; 
-        
+    
+    #menu2 h3{
+   
+        margin-left: 200px; 
+        font-size: 40px; 
+        margin-top: 140px;
+  
     }
-    #menu2 {
-        border: 3px solid #F2F2F2; 
-      margin-left: 0px; 
-        margin-top: 60px;    
-        padding-left: 250px; 
-    }
+    
+   
 
+    
 }
 /*fin */
 
