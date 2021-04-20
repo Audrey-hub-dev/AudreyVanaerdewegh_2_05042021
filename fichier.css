@@ -77,6 +77,7 @@ i {
 }
 #logo {
     margin-top: 30px; 
+    margin-left: 30px; 
 }
 
 #menu1 h3 {
@@ -140,9 +141,9 @@ i {
         border-bottom: 10px solid #F2F2F2;
         margin-left:0px;
         font-size: 40px; 
-        margin-top:96px;
-        padding-left: 150px; 
-        padding-right: 120px; 
+        margin-top:83px;
+        padding-left: 250px; 
+        padding-right: 280px; 
         padding-bottom: 30px ; 
     }
     
@@ -161,7 +162,7 @@ i {
     
     #menu2 h3{
    
-        margin-left: 200px; 
+        margin-left: 350px; 
         font-size: 40px; 
         margin-top: 140px;
   
@@ -178,6 +179,10 @@ i {
 #section1 p {
     font-family: 'policereservia';
     font-size: 13px; 
+}
+
+#section1 {
+    margin-left: 30px; 
 }
 #bouton {
     background: #0065FC;
@@ -322,13 +327,17 @@ i {
 
 /* section annonce */
 
+#section2 {
+    margin-left: 30px; 
+}
+
 @media all and (max-device-width: 768px) {
-    #section2 h4 {
+    #section2 h3 {
         font-family: 'policereservia'; 
         font-size: 15px; 
         margin-left: 30px;
     }
-
+    
 }
 /*fin*/
 
@@ -424,7 +433,7 @@ i {
 
 @media all and (max-device-width: 768px) {
     .stars {
-        font-size: 12px; 
+        font-size: 15px; 
         margin-left: 30px; 
         margin-top: 10px; 
 
@@ -432,12 +441,12 @@ i {
     }
     
     .titlehebergement {
-        font-size: 20px; 
+        font-size: 40px; 
         margin-left: 30px; 
         
     }
     .prixhebergement {
-        font-size: 15px; 
+        font-size: 25px; 
         margin-left: 30px;
        
        
@@ -446,6 +455,7 @@ i {
     #section3 {
         display: flex;
         flex-direction: column-reverse;
+        width: 1220px; 
     }
     .containerhebergement {
         display: block;
@@ -464,13 +474,15 @@ i {
     }
 
     .hebergementpic {
-        width: 840px;
-        height: 350px;
+        width: 1100px;
+        height: 550px;
         border-radius: 60px 60px 0px 0px;      
     } 
    
     #section3 h3 {
-        font-size: 15px; 
+        font-size: 45px; 
+        padding-top: 50px; 
+        
     }
 }
 
@@ -551,7 +563,7 @@ i {
 @media all and (max-device-width: 768px) {
     
 .titlelpp {
-    font-size: 45px; 
+    font-size: 55px; 
     margin-right: 10px; 
    
     margin-left: 400px; 
@@ -559,14 +571,14 @@ i {
 
 }
 .starslpp {
-    font-size: 30px; 
+    font-size: 40px; 
     margin-left: 400px; 
     
-    top: 110px;
+    top: 70px;
 }
 
 .prixlpp {
-    font-size: 40px; 
+    font-size: 50px; 
     margin-left: 400px; 
 }
 
@@ -575,22 +587,45 @@ i {
     width: 340px;
     height: 380px;
     border-radius: 60px 0px 0px 60px; 
+    border: 5px solid white;
 
      
     
     }
+
+    #containerlespluspopulaires h1 {
+        margin-left: 30px; 
+    }
    
     #containerlespluspopulaires h1 i {
-      margin-left: 200px; 
+      margin-left: 450px; 
     }   
     
     .hebergementlpp {
         border-radius: 60px 60px 60px 60px; 
+        margin-left: 30px; 
+        margin-right: 70px; 
+       
     }
 
     #containerlespluspopulaires {
-       margin-left: 0px; 
-    }
+        margin-left: 0px; 
+        
+       
+        
+        
+        padding-bottom: 100px;
+        
+   }
+   #section3 h3 {
+       font-size: 
+   }
+
+
+
+
+
+
 }
 /*fin*/
 
@@ -605,6 +640,7 @@ i {
 #containermarseille {
     margin-top: 10px;
     display: flex;
+   
      
 }
 .onepic {
@@ -665,95 +701,133 @@ i {
         margin-top: 100px; 
         margin-left: 30px; 
         margin-right: 30px; 
+        
     }
     
+   
         
-    .photoactivity, .photoactivity1 {
-        width: 840px; 
-        height: 450px; 
+     .photoactivity1, .photoactivity {
+        width: 1100px; 
+        height: 550px; 
         
         border-radius: 60px 60px 0px 0px; 
     }
      
+    .onepic {
+        width: 1200px; 
+    } 
+    .containeractivity {
+          
+       
+        width: 1160px; 
 
-
-
+    }
+   
     .activitymarseille, .activitymarseille1 {
         margin-bottom: 60px; 
         border-radius: 60px 60px 60px 60px; 
         text-shadow: 20px 20px 20px #F2F2F2; 
         box-shadow: 20px 20px 20px #F2F2F2;
         margin-right: 30px; 
+       
         
     }
     .titleactivity {
-        font-size: 20px; 
+        font-size: 55px; 
         padding-bottom: 40px;
         padding-top: 50px; 
     }
-    .onepic .titleactivity {
-        font-size: 45px; 
-
-    }
-
-      
-
-        
-
-    
-       
-    }
-
-
+  
     
 }
 /*fin*/
 
 /* début partie footer */ 
 
-#footer a {
-    color: black;
-    text-decoration: none;
-}
-#footer a:visited {
-    color: black;
-}
+
 #footer {
     display: flex;
-    background: #F2F2F2;
-    margin-top: 30px;     
+   
+    margin-top: 30px;  
+   
+    
+    padding-right: 310px;
+    width: 800px;
+    background-color: #F2F2F2;
+   
+   
+      
 }
 #apropos {
-    margin-top: 30px;
+    padding-top: 30px;
     font-family: 'policereserviabold';
     font-size: 14px;
+    margin-left: 30px; 
+   
+   
 }
-.hebergementassistance {
-    margin-left: 200px;
-    margin-top: 30px;
+#hebergementfooter, #assistance {
+  
+    padding-top: 30px;
     font-family: 'policereserviabold';
     font-size: 14px;   
+   
 } 
-#apropos a, .hebergementassistance a {
-    font-family: 'policereservia';
-    font-size: 13px;     
+
+#hebergementfooter, #assistance {
+    margin-left: 180px; 
 }
+
+
+
+
+#apropos a, #hebergementfooter a, #assistance a {
+    font-family: 'policereservia';
+    font-size: 13px;
+    text-decoration: none;
+    color: black; 
+    
+}
+
+#apropos a:visited, #hebergementfooter a:visited, #assistance a:visited {
+    color: black; 
+}
+
 @media all and (max-device-width: 768px) {
     #footer {
         display: block;
+        margin-top: 150px;   
+        padding-bottom: 100px;
+        width: 900px; 
     }
-    #footer {
-        margin-top: 150px;    
-    }
-    #apropos, .hebergementassistance {
+   
+    #apropos, #hebergementfooter, #assistance {
         padding-top: 100px; 
         margin-left: 30px; 
         
     }
-    
-    #assistance {
-        padding-bottom: 150px; 
+    #apropos h2, #hebergementfooter h2, #assistance h2 {
+        font-size: 45px;
     }
+
+    #apropos a, #hebergementfooter a, #assistance a {
+        font-size: 30px; 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 /* fin */ 
