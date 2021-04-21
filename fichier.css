@@ -31,12 +31,10 @@ h2 {
     font-family: 'policereserviabold';
     font-size: 14px;
 }
-
 h3 {
     font-family: 'policereservia';
     font-size: 12px;
 }
-
 strong {
     font-family: 'policereserviabold';
 }
@@ -45,7 +43,6 @@ i {
 }
 
 @media all and (max-device-width: 768px) {
-    
     h1 {
         font-size: 50px;
      }
@@ -60,18 +57,9 @@ i {
 
 /* début partie header/menu */
 
-#logoetmenus {
+#logoetmenus, #menus23, #logomenu1 {
     display:flex;	
 }
-
-#menus23 {
-	display:flex; 
-}
-
-#logomenu1 {
-	display: flex;
-}
-
 #menu3 {
 	order: -1;
 }
@@ -79,39 +67,31 @@ i {
     margin-top: 30px; 
     margin-left: 30px; 
 }
-
 #menu1 h3 {
     color:#0065FC;
     border-top: 3px solid blue;
     margin-left: 750px;  
-    padding-top: 20px; 
-    
-   
+    padding-top: 20px;    
 }
-
+#menu2 h3, #menu3 h3 {
+    margin-left: 30px; 
+    margin-top: 35px; 
+}
 #menu2 h3 {
     color:#0065FC;
-    margin-left: 30px; 
-    margin-top: 35px; 
 }
-
 #menu3 h3 {
     color: black;
-    margin-left: 30px; 
-    margin-top: 35px; 
 }
 
-#menu1 a {
-    color: #0065FC;
+#menu1 a, #menu2 a, #menu3 a {
     text-decoration: none;      
 }
 #menu2 a {
     color: black;
-    text-decoration: none;
 }
-#menu3 a {
-    color: #0065FC;
-    text-decoration: none;      
+#menu1 a, #menu3 a {
+    color: #0065FC;     
 }
 #menu1 a:visited  #menu3 a:visited {
     color: #0065FC;
@@ -122,55 +102,37 @@ i {
 
 @media all and (max-device-width: 768px) {
 
- #logo img {
-     width: 85%; 
- }
-    
-#menus23 {
-	display: block;
-}
-
-#logomenu1 {
-	display: block; 
-}
-
-
-    
-    #menu3 h3 {
-    
-        border-bottom: 10px solid #F2F2F2;
-        margin-left:0px;
-        font-size: 40px; 
-        margin-top:83px;
-        padding-left: 250px; 
-        padding-right: 280px; 
-        padding-bottom: 30px ; 
+    #logo img {
+    width: 85%; 
     }
     
+    #menus23, #logomenu1 {
+	display: block;
+    }
+    #menu3 h3 {
+    border-bottom: 10px solid #F2F2F2;
+    margin-top:83px;
+    padding-left: 250px; 
+    padding-right: 280px; 
+    }
     #menu1 h3 {
-
-    margin-left: 0px;
     border-top: none; 
     border-bottom: 10px solid blue;
-    font-size: 40px;
     padding-left: 100px; 
     padding-right: 150px; 
     padding-top:0px;
-    padding-bottom: 30px;
-  
-    }
-    
+    } 
     #menu2 h3{
-   
-        margin-left: 350px; 
-        font-size: 40px; 
-        margin-top: 140px;
-  
+    margin-left: 350px; 
+    margin-top: 140px;
     }
-    
-   
-
-    
+    #menu3 h3, #menu1 h3, #menu2 h3 {
+        font-size: 40px;
+    }
+    #menu3 h3, #menu1 h3 {
+        margin-left: 0px;
+        padding-bottom: 30px;
+    }
 }
 /*fin */
 
@@ -203,19 +165,16 @@ i {
     border-radius: 10px 0px 0px 10px;
     background: #F2F2F2;
     color: black;
-    font-size: 14px; 
-    
+    font-size: 14px;     
 } 
 #sectionfiltres {
     display: flex;
     font-family: 'policereserviabold';
     font-size: 14px;  
 }
-
 #choixfiltres {
     display: flex; 
 }
-
 #signefiltre1, #signefiltre2, #signefiltre3, #signefiltre4 {
     display: flex; 
     border: 2px solid #F2F2F2;
@@ -223,13 +182,11 @@ i {
     margin-left: 30px;
     border-left-color: #DEEBFF;    
 }
-
 .signe {
     border : 10px solid #DEEBFF;
     border-radius: 50px/50px;
     background-color: #DEEBFF;  
 }
- 
 .name  {
     margin-left: 10px; 
     margin-right: 10px;
@@ -257,26 +214,15 @@ i {
         font-size: 15px; 
         margin-left: 30px;
     }
-    #section1 h1 {
+    #section1 h1, #section1 h3, #filtres {
         margin-left: 30px; 
-    }
-
-    #section1 h3 {
-        margin-left: 30px; 
-    }
-    #filtres {
-       
-        margin-left: 30px;  
-        
     }
     #choixfiltres {
         flex-wrap: wrap;
     }
-
     #sectionfiltres{
         display: block; 
-        font-size: 40px; 
-           
+        font-size: 40px;       
     }
     .signe {
         border: 30px solid #DEEBFF; 
@@ -286,7 +232,6 @@ i {
         border-radius: 100px 100px 100px 100px;    
         border: 5px solid #F2F2F2;  
         padding-right: 35px; 
-
     }
     .name {
         margin-bottom: 20px; 
@@ -301,17 +246,14 @@ i {
         width: 30%;
     }
     #signefiltre4 {
-        width: 55%; 
-        
+        width: 55%;    
     }
     #lieu, #bouton {
         font-size: 45px; 
         padding-left: 20px;
         padding-top: 30px; 
-        padding-bottom: 30px;   
-       
+        padding-bottom: 30px;      
     }
-
     #section1 form i {
         font-size: 30px; 
         margin-left: 10px; 
@@ -319,59 +261,48 @@ i {
         padding-top: 35px; 
         padding-bottom: 25px; 
         border-radius: 30px 0px 0px 30px;
-       
     }
-
 }
 /*fin*/
 
-/* section annonce */
+/* section 2 */
 
 #section2 {
     margin-left: 30px; 
 }
-
 @media all and (max-device-width: 768px) {
     #section2 h3 {
         font-family: 'policereservia'; 
         font-size: 15px; 
         margin-left: 30px;
-    }
-    
+    }    
 }
 /*fin*/
 
-/* début partie hébergements à Marseille */
+/* début partie hébergements à Marseille (section 3)*/
 #section3 {
     display: flex;    
 }
-
 #section3 a {
     color: black;
     font-weight: bold;
     text-decoration: none;
-
 }
 #section3 a:visited {
     color: black;
 }
-
 #hebergementsamarseille  {
-    
     padding-right: 30px;
-   
     background-color: #F2F2F2;
     border-radius: 20px;  
     margin-left: 30px; 
 }
-
 #hebergementsamarseille h3 {
     font-family: 'policereserviabold';
     font-size: 12px; 
     margin-left: 30px;
     margin-top: 30px; 
 }
-
 #hebergementsamarseille h1 {
     padding-left: 30px; 
     padding-top: 30px; 
@@ -392,8 +323,7 @@ i {
    margin-top: 5px;
    font-size: 11px;  
    margin-left: 10px; 
-   margin-top: 3px; 
-    
+   margin-top: 3px;    
 }
 .hebergement  {
     border-radius: 10px 10px 10px 10px;   
@@ -406,22 +336,19 @@ i {
     margin-bottom: 10px;     
 }
 .hebergementpic {
-  border-radius: 10px 10px 0px 0px; 
-  background-color: white;
-  width: 200px; 
-  height: 101px; 
-  object-fit: cover;
-
+    border-radius: 10px 10px 0px 0px; 
+    background-color: white;
+    width: 200px; 
+    height: 101px; 
+    object-fit: cover;
 }
 .titlehebergement {
-    
     font-family: 'policereserviabold';
     font-size: 12px; 
     border: 2px solid white; 
     background-color: white;
     margin-left: 8px; 
 }
-
 .hebergement a {
     color: black;
     text-decoration: none;
@@ -433,25 +360,18 @@ i {
 
 @media all and (max-device-width: 768px) {
     .stars {
-        font-size: 15px; 
-        margin-left: 30px; 
+        font-size: 15px;  
         margin-top: 10px; 
-
-       
     }
-    
     .titlehebergement {
-        font-size: 40px; 
-        margin-left: 30px; 
-        
+        font-size: 40px;       
     }
     .prixhebergement {
-        font-size: 25px; 
-        margin-left: 30px;
-       
-       
+        font-size: 25px;       
     }
-
+    .stars, .titlehebergement, .prixhebergement {
+        margin-left: 30px; 
+    }
     #section3 {
         display: flex;
         flex-direction: column-reverse;
@@ -464,25 +384,20 @@ i {
         background-color: white; 
         margin-top: 50px; 
     }
-
     .hebergement {
         border-radius: 60px 60px 60px 60px; 
         margin-bottom: 60px; 
         box-shadow: 20px 20px 20px #F2F2F2;
-        margin-right: 25px; 
-        
+        margin-right: 25px;    
     }
-
     .hebergementpic {
         width: 1100px;
         height: 550px;
         border-radius: 60px 60px 0px 0px;      
     } 
-   
     #section3 h3 {
         font-size: 45px; 
-        padding-top: 50px; 
-        
+        padding-top: 50px;    
     }
 }
 
@@ -507,10 +422,8 @@ i {
     padding-right: 30px;
     font-size: 12px;  
     margin-top: 10px; 
-    margin-left: 130px; 
-    
+    margin-left: 130px;    
 }  
- 
 .prixlpp {
     font-family: 'policereservia';
     margin-top: 5px; 
@@ -518,7 +431,6 @@ i {
     margin-left: 130px; 
 }
 .starslpp {
-
     position: relative;
     top: 30px;
     margin-left: 130px;
@@ -527,12 +439,9 @@ i {
 .hebergementlpp {
     display: flex;
     background-color: white;
-    
     border-radius: 10px;
     margin-right: 30px;
-    margin-top: 30px;   
-     
-    
+    margin-top: 30px;         
 }
 
 #imageflottante1, #imageflottante2, #imageflottante3 {
@@ -542,110 +451,70 @@ i {
     clear: left;
 }
 .piclpp {
- border: 3px solid white; 
-    
+    border: 3px solid white; 
     border-radius: 10px 0px 0px 10px;  
     width: 110px;
     height: 110px; 
     object-fit: cover; 
-
 }
-
 .hebergementlpp a {
     color: black;
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 .hebergementlpp a:visited {
     color: black;
 }
 
 @media all and (max-device-width: 768px) {
-    
-.titlelpp {
+    .titlelpp {
     font-size: 55px; 
     margin-right: 10px; 
-   
     margin-left: 400px; 
     margin-top: 50px; 
-
-}
-.starslpp {
+    }
+    .starslpp {
     font-size: 40px; 
     margin-left: 400px; 
-    
     top: 70px;
-}
-
-.prixlpp {
+    }
+    .prixlpp {
     font-size: 50px; 
     margin-left: 400px; 
-}
-
-
+    }
     .piclpp {
     width: 340px;
     height: 380px;
     border-radius: 60px 0px 0px 60px; 
     border: 5px solid white;
-
-     
-    
     }
-
     #containerlespluspopulaires h1 {
-        margin-left: 30px; 
+    margin-left: 30px; 
     }
-   
     #containerlespluspopulaires h1 i {
       margin-left: 450px; 
     }   
-    
     .hebergementlpp {
         border-radius: 60px 60px 60px 60px; 
         margin-left: 30px; 
-        margin-right: 70px; 
-       
+        margin-right: 70px;   
     }
-
     #containerlespluspopulaires {
         margin-left: 0px; 
-        
-       
-        
-        
-        padding-bottom: 100px;
-        
+         padding-bottom: 100px;    
    }
-   #section3 h3 {
-       font-size: 
-   }
-
-
-
-
-
-
 }
+
 /*fin*/
 
-/*partie activités à marseille */
+/*partie activités à marseille (section 4) */
 
 #section4 h1 {
     margin-top: 50px;
     margin-left: 30px; 
-
 }
-
 #containermarseille {
     margin-top: 10px;
-    display: flex;
-   
-     
-}
-.onepic {
-    display:flex;
-    justify-content: space-between;    
+    display: flex;       
 }
 .titleactivity {
     margin-left: 10px;
@@ -655,15 +524,12 @@ i {
     box-shadow: 6px 6px 6px #F2F2F2;
     border-radius: 0px 0px 20px 20px;  
 }
-
 .activitymarseille, .activitymarseille1 {
     margin-left: 30px;       
 }
-
 .activitymarseille1 {
     margin-top: 30px;
 }
-
 .photoactivity, .photoactivity1 {
     border-radius : 20px 20px 0px 0px;  
     box-shadow: 6px 6px 6px #F2F2F2;
@@ -672,26 +538,19 @@ i {
     color: black;
     text-decoration: none;
 }
-
 .activitymarseille a:visited, .activitymarseille1 a:visited {
     color:black;
 }
 .photoactivity1  {
     width: 250px; 
     height: 322px; 
-    object-fit: cover;
-    
+    object-fit: cover;   
 }
 .photoactivity {
     width: 250px;
     height: 125px; 
     object-fit: cover;
 }
-
-
-
-
-
 
 @media all and (max-device-width: 768px) {
     #containermarseille, .containeractivity {
@@ -700,95 +559,60 @@ i {
     #section4 {
         margin-top: 100px; 
         margin-left: 30px; 
-        margin-right: 30px; 
-        
-    }
-    
-   
-        
-     .photoactivity1, .photoactivity {
+        margin-right: 30px;     
+    }  
+    .photoactivity1, .photoactivity {
         width: 1100px; 
         height: 550px; 
-        
         border-radius: 60px 60px 0px 0px; 
     }
-     
-    .onepic {
-        width: 1200px; 
-    } 
-    .containeractivity {
-          
-       
+    .firstpic, .containeractivity {
         width: 1160px; 
-
-    }
-   
+    } 
     .activitymarseille, .activitymarseille1 {
         margin-bottom: 60px; 
         border-radius: 60px 60px 60px 60px; 
         text-shadow: 20px 20px 20px #F2F2F2; 
         box-shadow: 20px 20px 20px #F2F2F2;
-        margin-right: 30px; 
-       
-        
+        margin-right: 30px;    
     }
     .titleactivity {
         font-size: 55px; 
         padding-bottom: 40px;
         padding-top: 50px; 
     }
-  
-    
 }
 /*fin*/
 
 /* début partie footer */ 
 
-
 #footer {
     display: flex;
-   
     margin-top: 30px;  
-   
-    
     padding-right: 310px;
     width: 800px;
-    background-color: #F2F2F2;
-   
-   
-      
+    background-color: #F2F2F2;     
 }
 #apropos {
     padding-top: 30px;
     font-family: 'policereserviabold';
     font-size: 14px;
-    margin-left: 30px; 
-   
-   
+    margin-left: 30px;   
 }
 #hebergementfooter, #assistance {
-  
     padding-top: 30px;
     font-family: 'policereserviabold';
-    font-size: 14px;   
-   
+    font-size: 14px;     
 } 
-
 #hebergementfooter, #assistance {
     margin-left: 180px; 
 }
-
-
-
-
 #apropos a, #hebergementfooter a, #assistance a {
     font-family: 'policereservia';
     font-size: 13px;
     text-decoration: none;
-    color: black; 
-    
+    color: black;     
 }
-
 #apropos a:visited, #hebergementfooter a:visited, #assistance a:visited {
     color: black; 
 }
@@ -800,7 +624,6 @@ i {
         padding-bottom: 100px;
         width: 900px; 
     }
-   
     #apropos, #hebergementfooter, #assistance {
         padding-top: 100px; 
         margin-left: 30px; 
@@ -814,20 +637,4 @@ i {
         font-size: 30px; 
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-/* fin */ 
