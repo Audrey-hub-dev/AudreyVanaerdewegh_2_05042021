@@ -1,11 +1,11 @@
 
 @font-face {
     font-family: 'policereservia';
-    src: url('raleway-regular-webfont.eot');
-    src: url('raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('raleway-regular-webfont.woff') format('woff'),
-         url('raleway-regular-webfont.ttf') format('truetype'),
-         url('raleway-regular-webfont.svg#ralewayregular') format('svg');
+    src: url('polices/raleway-regular-webfont.eot');
+    src: url('polices/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/raleway-regular-webfont.woff') format('woff'),
+         url('polices/raleway-regular-webfont.ttf') format('truetype'),
+         url('polices/raleway-regular-webfont.svg#ralewayregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -13,11 +13,11 @@
 
 @font-face {
     font-family: 'policereserviabold';
-    src: url('raleway-bold-webfont.eot');
-    src: url('raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('raleway-bold-webfont.woff') format('woff'),
-         url('raleway-bold-webfont.ttf') format('truetype'),
-         url('raleway-bold-webfont.svg#ralewaybold') format('svg');
+    src: url('polices/raleway-bold-webfont.eot');
+    src: url('polices/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/raleway-bold-webfont.woff') format('woff'),
+         url('polices/raleway-bold-webfont.ttf') format('truetype'),
+         url('polices/raleway-bold-webfont.svg#ralewaybold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -154,6 +154,7 @@ i {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 5px;
+    
 }
 
 #section1 form i {
@@ -171,6 +172,7 @@ i {
     display: flex;
     font-family: 'policereserviabold';
     font-size: 14px;  
+    padding-top: 15px; 
 }
 #choixfiltres {
     display: flex; 
@@ -204,7 +206,8 @@ i {
     padding-left: 10px;
     font-weight: bold;
     font-family: 'policereserviabold';
-    font-size: 14px;   
+    font-size: 14px;  
+     
 }
 
 @media all and (max-device-width: 768px) {
@@ -590,24 +593,26 @@ i {
     display: flex;
     margin-top: 30px;  
     padding-right: 310px;
-    width: 800px;
+    width: 1000px;
     background-color: #F2F2F2;     
 }
 #apropos {
     padding-top: 30px;
     font-family: 'policereserviabold';
     font-size: 14px;
-    margin-left: 30px;   
+    
+    list-style-type: none; 
 }
 #hebergementfooter, #assistance {
     padding-top: 30px;
     font-family: 'policereserviabold';
     font-size: 14px;     
+    list-style-type: none;
 } 
-#hebergementfooter, #assistance {
+#hebergementfooter, #assistance, .liensha {
     margin-left: 180px; 
 }
-#apropos a, #hebergementfooter a, #assistance a {
+.lienapropos a, .liensha a {
     font-family: 'policereservia';
     font-size: 13px;
     text-decoration: none;
@@ -615,6 +620,9 @@ i {
 }
 #apropos a:visited, #hebergementfooter a:visited, #assistance a:visited {
     color: black; 
+}
+.lienapropos, .liensha {
+    list-style-type: none;   
 }
 
 @media all and (max-device-width: 768px) {
