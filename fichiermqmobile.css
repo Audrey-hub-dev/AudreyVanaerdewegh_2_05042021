@@ -1,44 +1,48 @@
-
-
-
 @media all and (max-device-width: 768px) {
     h1 {
         font-size: 50px;
      }
     h2 {
-         font-size: 20px;
+         font-size: 45px;
      }
 
     h3 {
-        font-size: 15px;
+        font-size: 40px;
     }
 }
 
 @media all and (max-device-width: 768px) {
 
     #logo img {
-    width: 85%; 
+        width: 30%; 
+    }
+    #logoetmenus {
+        flex-wrap: nowrap; 
+        max-width: none; 
+        margin-right: 0px; 
+        justify-content: inherit;
     }
     
     #menus23, #logomenu1 {
-	display: block;
+	    display: block;
     }
     #menu3 h3 {
-    border-bottom: 10px solid #F2F2F2;
-    margin-top:83px;
-    padding-left: 250px; 
-    padding-right: 280px; 
+        border-bottom: 10px solid #F2F2F2;
+        margin-top: 105px;
+        padding-left: 300px; 
+        padding-right: 150px; 
     }
     #menu1 h3 {
-    border-top: none; 
-    border-bottom: 10px solid blue;
-    padding-left: 100px; 
-    padding-right: 150px; 
-    padding-top:0px;
+        border-top: none; 
+        border-bottom: 10px solid blue;
+        padding-left: 100px; 
+        padding-right: 220px; 
+        padding-top:0px;
+        margin-top: 250px; 
     } 
     #menu2 h3{
-    margin-left: 350px; 
-    margin-top: 140px;
+        margin-left: 350px; 
+        margin-top: 100px;
     }
     #menu3 h3, #menu1 h3, #menu2 h3 {
         font-size: 40px;
@@ -143,7 +147,7 @@
         border-radius: 60px 60px 60px 60px; 
         margin-bottom: 60px; 
         box-shadow: 20px 20px 20px #F2F2F2;
-        margin-right: 25px;    
+        margin-right: 35px;    
     }
     .hebergementpic {
         width: 1100px;
@@ -158,40 +162,43 @@
 
 @media all and (max-device-width: 768px) {
     .titlelpp {
-    font-size: 55px; 
-    margin-right: 10px; 
-    margin-left: 400px; 
-    margin-top: 50px; 
+        font-size: 55px; 
+        margin-right: 10px; 
+        margin-left: 530px; 
+        margin-top: 80px; 
     }
     .starslpp {
-    font-size: 40px; 
-    margin-left: 400px; 
-    top: 70px;
+        font-size: 40px; 
+        margin-left: 530px; 
+        top: 150px;
     }
     .prixlpp {
-    font-size: 50px; 
-    margin-left: 400px; 
+        font-size: 50px; 
+        margin-left: 530px; 
     }
     .piclpp {
-    width: 340px;
-    height: 380px;
-    border-radius: 60px 0px 0px 60px; 
-    border: 5px solid white;
+        width: 450px;
+        height: 500px;
+        border-radius: 60px 0px 0px 60px; 
+        border: 5px solid white;
     }
     #containerlespluspopulaires h1 {
-    margin-left: 30px; 
+        margin-left: 30px; 
+        padding-top: 30px; 
+        padding-bottom: 50px; 
     }
     #containerlespluspopulaires h1 i {
-      margin-left: 450px; 
-    }   
+        margin-left: 400px; 
+    } 
     .hebergementlpp {
         border-radius: 60px 60px 60px 60px; 
         margin-left: 30px; 
-        margin-right: 70px;   
+        width: 1100px;    
+        margin-bottom: 50px; 
     }
     #containerlespluspopulaires {
-        margin-left: 0px; 
-         padding-bottom: 100px;    
+        border-radius: 0px 0px 0px 0px; 
+        max-width: none;           
    }
 }
 
@@ -217,7 +224,8 @@
         border-radius: 60px 60px 60px 60px; 
         text-shadow: 20px 20px 20px #F2F2F2; 
         box-shadow: 20px 20px 20px #F2F2F2;
-        margin-right: 30px;    
+        margin-right: 30px; 
+        width: 1100px;    
     }
     .titleactivity {
         font-size: 55px; 
@@ -233,15 +241,22 @@
         width: 900px; 
     }
     #apropos, #hebergementfooter, #assistance {
-        padding-top: 100px; 
-        margin-left: 30px; 
-        
+        padding-top: 100px;       
     }
-    #apropos h2, #hebergementfooter h2, #assistance h2 {
-        font-size: 45px;
+    #apropos {
+        margin-left: 30px;  
+    }
+    .lienapropos {
+        margin-left: 30px; 
     }
 
-    #apropos a, #hebergementfooter a, #assistance a {
-        font-size: 30px; 
+    #hebergementfooter , #assistance {
+        margin-left: 30px; 
+    }
+    .liensha {
+        margin-left: 30px; 
+    }
+    .lienapropos a, .liensha a {
+        font-size: 35px; 
     }
 }
