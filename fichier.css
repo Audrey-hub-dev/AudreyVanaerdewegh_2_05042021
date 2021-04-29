@@ -49,13 +49,12 @@ i {
     h2 {
          font-size: 20px;
 }
-
     h3 {
         font-size: 15px;
     }
 }
 
-/* début partie header */
+
 
 #logoetmenus, #menus23, #logomenu1 {
     display:flex;	
@@ -74,7 +73,8 @@ i {
 }
 #logoetmenus {
     justify-content: flex-end;
-    margin-right: 200px; 
+    margin-right: 310px; 
+    
 }
 #menu1 h3 {
     color:#0065FC;
@@ -107,33 +107,23 @@ i {
     color: black;
 }
 
+
 @media all and (max-width: 768px)  {
 
     #logoetmenus {
-        max-width: 700px;   
+        min-width: 400px ;      
     }
     #logoetmenus {
         flex-wrap: wrap;      
     }
-    #menu1 h3 {
-        margin-left: none; 
-    } 
-    
     #menu3 h3, #menu1 h3, #menu2 h3 {
         font-size: 15px;
     }
 }
-
-
-/*fin */
-
-/* début partie lieu et filtres*/
-
 #section1 p {
     font-family: 'policereservia';
     font-size: 13px; 
 }
-
 #section1 {
     margin-left: 30px; 
 }
@@ -196,8 +186,11 @@ i {
     padding-left: 10px;
     font-weight: bold;
     font-family: 'policereserviabold';
-    font-size: 14px;  
-     
+    font-size: 14px;
+    
+}
+button {
+    display: none; 
 }
 
 @media all and (max-width: 768px)  {
@@ -206,7 +199,6 @@ i {
         font-family: 'policereservia'; 
         font-size: 15px;    
     }
-   
     #choixfiltres {
         flex-wrap: wrap;
     }
@@ -257,9 +249,6 @@ i {
         border-radius: 10px 0px 0px 10px;
     }
 }
-/*fin*/
-
-/* section 2 */
 
 #section2 {
     margin-left: 30px; 
@@ -271,9 +260,6 @@ i {
     }    
 }
 
-/*fin*/
-
-/* début partie hébergements à Marseille (section 3)*/
 #section3 {
     display: flex;  
 }
@@ -399,10 +385,6 @@ i {
     }
 }
     
-/* fin */ 
-
-/*début partie les plus populaires */
-
 #containerlespluspopulaires {
     margin-left: 30px;
     padding-top: 20px;
@@ -546,10 +528,6 @@ i {
     }
 }
 
-/*fin*/
-
-/*partie activités à marseille (section 4) */
-
 #section4 h1 {
     margin-top: 50px;
     margin-left: 30px; 
@@ -635,10 +613,7 @@ i {
         font-size: 20px; 
     }
 }
-/*fin*/
-
-/* début partie footer */ 
-
+ 
 #footer {
     display: flex;
     margin-top: 30px;  
