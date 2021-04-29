@@ -1,4 +1,4 @@
-@media all and (max-device-width: 768px) {
+@media all and (max-device-width: 991px) {
     h1 {
         font-size: 50px;
      }
@@ -9,10 +9,6 @@
     h3 {
         font-size: 40px;
     }
-}
-
-@media all and (max-device-width: 768px) {
-
     #logo img {
         width: 30%; 
     }
@@ -38,7 +34,7 @@
         padding-left: 100px; 
         padding-right: 220px; 
         padding-top:0px;
-        margin-top: 250px; 
+        margin-top: 252px; 
     } 
     #menu2 h3{
         margin-left: 350px; 
@@ -51,9 +47,6 @@
         margin-left: 0px;
         padding-bottom: 30px;
     }
-}
-
-@media all and (max-device-width: 768px) {
 
     #section1 p {
         font-family: 'policereservia'; 
@@ -94,30 +87,55 @@
     #signefiltre4 {
         width: 55%;    
     }
-    #lieu, #bouton {
+    #lieu {
         font-size: 45px; 
-        padding-left: 20px;
-        padding-top: 30px; 
-        padding-bottom: 30px;      
+        padding-left: 30px;
+        padding-top: 40px; 
+        padding-bottom: 30px; 
+        border: 1px solid #F2F2F2;
+        border-right: none;   
+
     }
     #section1 form i {
-        font-size: 30px; 
+        font-size: 45px; 
         margin-left: 10px; 
         border: 15px solid #F2F2F2;
-        padding-top: 35px; 
-        padding-bottom: 25px; 
+        padding-top: 30px; 
+        padding-bottom: 23px; 
         border-radius: 30px 0px 0px 30px;
+        padding-left: 30px;
+        padding-right: 30px; 
     }
-}
-@media all and (max-device-width: 768px) {
+
+    button {
+        display: unset; 
+        background-color:#0065FC;
+        border-radius: 30px 30px 30px 30px; 
+        padding-left: 10px;
+        padding-right: 20px; 
+        border-color: #0065FC;
+        padding-top: 35px;
+        padding-bottom: 5px;    
+    }
+    #section1 form button i {
+       
+        background-color:#0065FC; 
+        color: white; 
+        border: 8px solid #0065FC;
+        border-radius: 30px 30px 30px 30px;
+        font-size: 45px;
+        border-color: #0065FC; 
+        padding-top: 0px; 
+    }
+    #bouton {
+        display: none; 
+    }  
+
     #section2 h3 {
         font-family: 'policereservia'; 
         font-size: 15px; 
         margin-left: 30px;
     }    
-}
-
-@media all and (max-device-width: 768px) {
     .stars {
         font-size: 15px;  
         margin-top: 10px; 
@@ -158,9 +176,6 @@
         font-size: 45px; 
         padding-top: 50px;    
     }
-}
-
-@media all and (max-device-width: 768px) {
     .titlelpp {
         font-size: 55px; 
         margin-right: 10px; 
@@ -200,9 +215,6 @@
         border-radius: 0px 0px 0px 0px; 
         max-width: none;           
    }
-}
-
-@media all and (max-device-width: 768px) {
     #containermarseille, .containeractivity {
         display: block; 
     }
@@ -232,8 +244,6 @@
         padding-bottom: 40px;
         padding-top: 50px; 
     }
-}
-@media all and (max-device-width: 768px) {
     #footer {
         display: block;
         margin-top: 150px;   
