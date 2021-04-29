@@ -48,14 +48,19 @@
         <h3>En plein centre ville ou en pleine nature</h3>
         
         <form method="post" action="traitement.php">
-            <p>
+            
                 <i class="fas fa-map-marker-alt"></i>
-                <input type="text" id="lieu" value="Marseille, France"/>
-                <button type="submit">
-                    <i class="fas fa-search"></i>
+                <div id="espacelieu">
+                    <input type="text" id="lieu" value="Marseille, France"/>
+                </div>
+                
+                <button type="submit"><i class="fas fa-search"></i>
                 </button>
-                <input type="submit" id="bouton" value="Rechercher"/>
-            </p>
+
+                <div id="espacerecherche">
+                    <input type="submit" id="bouton" value="Rechercher"/>
+                </div>
+            
                 
        </form>
   
