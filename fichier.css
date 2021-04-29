@@ -111,15 +111,44 @@ i {
 @media all and (max-width: 768px)  {
 
     #logoetmenus {
-        min-width: 400px ;      
+        flex-wrap: nowrap ; 
+        max-width: none; 
+        margin-right: 0px;     
     }
-    #logoetmenus {
-        flex-wrap: wrap;      
+    
+    #menus23, #logomenu1 {
+	    display: block;
     }
-    #menu3 h3, #menu1 h3, #menu2 h3 {
-        font-size: 15px;
+    #menu3 h3 {
+        border-bottom: 10px solid #F2F2F2;
+        margin-top: 105px;
+        padding-left: 265px; 
+        padding-right: 100px; 
+        margin-left: 100px;
+        padding-bottom: 20px;    
+    }
+    #menu1 h3 {
+        border-top: none; 
+        border-bottom: 10px solid blue;
+        padding-left: 80px; 
+        padding-right: 150px; 
+        padding-top:0px;
+        margin-top: 153px; 
+        padding-bottom: 20px;  
+        position: absolute;
+        left: 0px;  
+    } 
+    #menu2 h3{
+        margin-left: 350px; 
+        margin-top: 60px;
+    
+    }
+    #menu3 h3, #menu1 h3 {
+        margin-left: 0px;
+       
     }
 }
+
 #section1 p {
     font-family: 'policereservia';
     font-size: 13px; 
@@ -195,59 +224,89 @@ button {
 
 @media all and (max-width: 768px)  {
 
+   
     #section1 p {
         font-family: 'policereservia'; 
-        font-size: 15px;    
+        font-size: 15px; 
+        margin-left: 30px;
+    }
+    #section1 h1, #section1 h3, #filtres {
+        margin-left: 30px; 
     }
     #choixfiltres {
         flex-wrap: wrap;
     }
     #sectionfiltres{
         display: block; 
-        font-size: 20px;       
+        font-size: px;       
     }
     .signe {
         border: 10px solid #DEEBFF; 
     }
     #signefiltre1, #signefiltre2, #signefiltre3, #signefiltre4 {
         margin-top: 30px; 
-        border-radius: 50px 50px 50px 50px;    
-        border: 3px solid #F2F2F2;  
+        border-radius: 100px 100px 100px 100px;    
+        border: 2px solid #F2F2F2;  
         padding-right: 35px; 
-        margin-left: 0px; 
-        border-left: 3px solid #DEEBFF;
     }
     .name {
-        margin-bottom: 10px; 
-        margin-top: 10px; 
+        margin-bottom: 20px; 
+        margin-top: 20px; 
         margin-left: 20px; 
         margin-right: 20px; 
-        font-size: 18px; 
     }
     #signefiltre1, #signefiltre3 {
-        width: 40%; 
+        width: 30%; 
     }
     #signefiltre2 {
-        width: 30%;
-        margin-left: 30px; 
+        width: 25%;
     }
     #signefiltre4 {
-        width: 55%;    
+        width: 45%;    
     }
-    #lieu, #bouton {
-        font-size: 20px; 
+    #lieu {
+        font-size: px; 
         padding-left: 20px;
-        padding-top: 10px; 
-        padding-bottom: 10px;      
+        padding-top: 20px; 
+        padding-bottom: 20px; 
+        border: 1px solid #F2F2F2;
+        border-right: none;   
+
     }
     #section1 form i {
-        font-size: 20px; 
-        margin-left: 5px; 
-        border: 5px solid #F2F2F2;
-        padding-top: 8px; 
-        padding-bottom: 8px; 
-        border-radius: 10px 0px 0px 10px;
+        font-size: px; 
+        margin-left: 10px; 
+        border: 10px solid #F2F2F2;
+        padding-top: 20px; 
+        padding-bottom: 20px; 
+        border-radius: 30px 0px 0px 30px;
+        padding-left: 20px;
+        padding-right: 20px; 
     }
+
+    button {
+        display: unset; 
+        background-color:#0065FC;
+        border-radius: 30px 30px 30px 30px; 
+        padding-left: 5px;
+        padding-right: 5px; 
+        border-color: #0065FC;
+        padding-top: 10px;
+        padding-bottom: 5px;    
+    }
+    #section1 form button i {
+       
+        background-color:#0065FC; 
+        color: white; 
+        border: 8px solid #0065FC;
+        border-radius: 30px 30px 30px 30px;
+        font-size: px;
+        border-color: #0065FC; 
+        padding-top: 0px; 
+    }
+    #bouton {
+        display: none; 
+    }  
 }
 
 #section2 {
@@ -337,6 +396,7 @@ button {
 }
 
 @media all and (max-width: 1150px)  {
+
     .hebergementpic {
         width: 300px; 
         height: 200px; 
@@ -358,33 +418,51 @@ button {
         height: 120px;
     }
 }
-@media all and (max-width: 700px) {
-    .hebergementpic {
-        width: 400px; 
-        height: 250px;    
-    }
-    .containerhebergement {
-        display: block; 
+
+@media all and (max-width: 768px) {
+    #section3 {
+    display: flex;
+    flex-direction: column-reverse;
+    }    
+    .stars {
+        font-size: 15px;  
+        margin-top: 10px; 
     }
     .titlehebergement {
-        font-size: 20px; 
+        font-size: px;       
     }
     .prixhebergement {
-        font-size: 15px; 
+        font-size: px;       
     }
-    .stars {
-        font-size: 15px; 
+    .stars, .titlehebergement, .prixhebergement {
+        margin-left: 30px; 
+    }
+    
+    .containerhebergement {
+        display: block;
+    }
+    #hebergementsamarseille {
+        background-color: white; 
+        margin-top: 50px; 
     }
     .hebergement {
-        width: 400px; 
-        margin-top: 30px;   
+        border-radius: 30px 30px 30px 30px; 
+        margin-bottom: 60px; 
+        box-shadow: 20px 20px 20px #F2F2F2;
+        margin-right: 35px; 
+        width: 400px;    
     }
-    #hebergementsamarseille h3  {
-        font-size: 20px; 
-        padding-bottom: 30px; 
+    .hebergementpic {
+        width: 400px;
+        height: 250px;
+        border-radius: 30px 30px 0px 0px;      
+    } 
+    #section3 h3 {
+        font-size: 45px; 
+        padding-top: 50px;    
     }
 }
-    
+
 #containerlespluspopulaires {
     margin-left: 30px;
     padding-top: 20px;
@@ -445,7 +523,7 @@ button {
     color: black;
 }
 
-@media all and (max-width: 1150px) {
+@media all and (min-width: 768px) and (max-width: 1150px) {
     #section3 {
         display: block;
     }
@@ -484,8 +562,15 @@ button {
    }
 }
 @media all and (max-width: 768px) {
+    #section3 {
+        display: flex;
+        flex-direction: column-reverse;
+        width: auto;
+        
+    }
+
     .piclpp {
-        width: 200px;
+        width: 180px;
         height: 180px;
     }
     .titlelpp {
@@ -503,30 +588,13 @@ button {
         font-size: 15px; 
         margin-left: 230px; 
     }
+    #containerlespluspopulaires {
+        border-radius: 0px; 
+        
+    }
+    
 }
-@media all and (max-width: 650px) {
-        .piclpp {
-        width: 160px; 
-        height: 160px; 
-    }
-        .titlelpp {
-        font-size: 20px; 
-        margin-right: 10px; 
-        margin-left: 180px; 
-        margin-top: 10px; 
-    }
-        .starslpp {
-        margin-left: 180px; 
-        top: 20px;
-    }
-        .prixlpp {
-        font-size: 15px; 
-        margin-left: 180px; 
-    }
-        .hebergementlpp {
-            margin-right: 50px; 
-    }
-}
+
 
 #section4 h1 {
     margin-top: 50px;
