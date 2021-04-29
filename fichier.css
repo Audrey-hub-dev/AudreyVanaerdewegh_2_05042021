@@ -108,38 +108,34 @@ i {
 }
 
 
-@media all and (max-width: 768px)  {
+@media all and (max-width: 600px)  {
 
     #logoetmenus {
         flex-wrap: nowrap ; 
         max-width: none; 
-        margin-right: 0px;     
+        margin-right: 0px;    
     }
     
     #menus23, #logomenu1 {
-	    display: block;
+        display: block;
     }
     #menu3 h3 {
-        border-bottom: 10px solid #F2F2F2;
         margin-top: 105px;
-        padding-left: 265px; 
-        padding-right: 100px; 
-        margin-left: 100px;
         padding-bottom: 20px;    
+        margin-left: 200px; 
+        
     }
     #menu1 h3 {
         border-top: none; 
-        border-bottom: 10px solid blue;
-        padding-left: 80px; 
-        padding-right: 150px; 
+        padding-left: 100px; 
         padding-top:0px;
         margin-top: 153px; 
         padding-bottom: 20px;  
         position: absolute;
-        left: 0px;  
+        left: 0px;        
     } 
     #menu2 h3{
-        margin-left: 350px; 
+        
         margin-top: 60px;
     
     }
@@ -147,6 +143,62 @@ i {
         margin-left: 0px;
        
     }
+    #logomenu1 {
+       border-bottom: 10px solid blue;   
+    }
+
+    #menus23 {
+        border-bottom: 10px solid #F2F2F2; 
+        padding-left: 170px;   
+    }
+}
+
+@media all and (min-width: 601px) and (max-width: 768px) {
+    
+    #logoetmenus {
+        flex-wrap: nowrap ; 
+        max-width: none; 
+        margin-right: 0px; 
+    }
+        
+     #menus23, #logomenu1 {
+        display: block;
+    }
+       
+    #menu3 h3 {
+        margin-top: 105px;
+        padding-bottom: 20px;   
+        margin-left: 200px; 
+            
+    }
+    #menu1 h3 {
+        border-top: none; 
+        padding-left: 100px; 
+        padding-top:0px;
+        margin-top: 153px; 
+        padding-bottom: 20px;  
+        position: absolute;
+        left: 0px;  
+               
+    } 
+    #menu2 h3{
+        margin-top: 60px;
+        
+    }
+    #menu3 h3, #menu1 h3 {
+         margin-left: 0px;
+           
+    }
+    #logomenu1 {
+        border-bottom: 10px solid #0065FC;
+    }
+    
+    #menus23 {
+        border-bottom: 10px solid #F2F2F2;
+        padding-left: 240px; 
+            
+    }
+
 }
 
 #section1 p {
@@ -157,21 +209,25 @@ i {
     margin-left: 30px; 
 }
 #bouton {
-    background: #0065FC;
+    background-color: #0065FC;
     color: white;
     border-radius: 0px 10px 10px 0px;
-    border-color :#0065FC;
     padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 5px;    
+    padding-bottom: 15px;
+    padding-left: 5px;  
+    border: 5px solid #0065FC;        
+}
+form {
+    display: flex; 
+    
 }
 
 #section1 form i {
     border: 2px solid #F2F2F2;
     padding-top: 11px;
     padding-bottom: 11px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
     border-radius: 10px 0px 0px 10px;
     background: #F2F2F2;
     color: black;
@@ -201,7 +257,8 @@ i {
 .name  {
     margin-left: 10px; 
     margin-right: 10px;
-    margin-top: 10px;     
+    margin-top: 10px;  
+       
 }   
 .name:hover {
     text-decoration: underline;
@@ -211,16 +268,16 @@ i {
 #lieu {
     border: 2px solid  #F2F2F2;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     padding-left: 10px;
     font-weight: bold;
     font-family: 'policereserviabold';
-    font-size: 14px;
-    
+    font-size: 14px;    
 }
 button {
     display: none; 
 }
+
 
 @media all and (max-width: 768px)  {
 
@@ -250,8 +307,8 @@ button {
         padding-right: 35px; 
     }
     .name {
-        margin-bottom: 20px; 
-        margin-top: 20px; 
+        margin-bottom: 10px; 
+        margin-top: 10px; 
         margin-left: 20px; 
         margin-right: 20px; 
     }
@@ -265,20 +322,20 @@ button {
         width: 45%;    
     }
     #lieu {
-        font-size: px; 
-        padding-left: 20px;
+        font-size: 20px; 
+        padding-left: 25px;
         padding-top: 20px; 
         padding-bottom: 20px; 
-        border: 1px solid #F2F2F2;
-        border-right: none;   
-
+        border-right: none; 
+        border-left: none; 
     }
+
     #section1 form i {
-        font-size: px; 
+        font-size: 20px; 
         margin-left: 10px; 
         border: 10px solid #F2F2F2;
-        padding-top: 20px; 
-        padding-bottom: 20px; 
+        padding-top: 13px; 
+        padding-bottom: 10px; 
         border-radius: 30px 0px 0px 30px;
         padding-left: 20px;
         padding-right: 20px; 
@@ -286,23 +343,21 @@ button {
 
     button {
         display: unset; 
-        background-color:#0065FC;
-        border-radius: 30px 30px 30px 30px; 
-        padding-left: 5px;
-        padding-right: 5px; 
-        border-color: #0065FC;
-        padding-top: 10px;
-        padding-bottom: 5px;    
+        background-color: #0065FC;
+        border-radius: 10px 10px 10px 10px;   
+        border: 1px solid #0065FC; 
     }
     #section1 form button i {
        
-        background-color:#0065FC; 
+        background-color: #0065FC; 
         color: white; 
-        border: 8px solid #0065FC;
-        border-radius: 30px 30px 30px 30px;
-        font-size: px;
-        border-color: #0065FC; 
-        padding-top: 0px; 
+        border: 10px solid #0065FC;
+        font-size: 20px;
+        padding-top: 5px; 
+        padding-right: 0px; 
+        padding-left: 0px;
+        margin-left: 0px; 
+        
     }
     #bouton {
         display: none; 
@@ -429,10 +484,10 @@ button {
         margin-top: 10px; 
     }
     .titlehebergement {
-        font-size: px;       
+        font-size: 20px;       
     }
     .prixhebergement {
-        font-size: px;       
+        font-size: 15px;       
     }
     .stars, .titlehebergement, .prixhebergement {
         margin-left: 30px; 
@@ -458,13 +513,14 @@ button {
         border-radius: 30px 30px 0px 0px;      
     } 
     #section3 h3 {
-        font-size: 45px; 
+        font-size: 20px; 
         padding-top: 50px;    
     }
 }
 
+
 #containerlespluspopulaires {
-    margin-left: 30px;
+    margin-left: 30px; 
     padding-top: 20px;
     background-color: #F2F2F2;   
     border-radius: 20px;
@@ -590,6 +646,7 @@ button {
     }
     #containerlespluspopulaires {
         border-radius: 0px; 
+        margin-left: 0px; 
         
     }
     
