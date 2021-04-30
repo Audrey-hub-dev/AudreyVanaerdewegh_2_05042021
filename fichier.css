@@ -107,9 +107,7 @@ i {
     color: black;
 }
 
-
-@media all and (max-width: 600px)  {
-
+@media all and (max-width: 600px) {
     #logoetmenus {
         flex-wrap: nowrap ; 
         max-width: none; 
@@ -122,8 +120,7 @@ i {
     #menu3 h3 {
         margin-top: 105px;
         padding-bottom: 20px;    
-        margin-left: 200px; 
-        
+        margin-left: 200px;    
     }
     #menu1 h3 {
         border-top: none; 
@@ -135,71 +132,58 @@ i {
         left: 0px;        
     } 
     #menu2 h3{
-        
         margin-top: 60px;
-    
     }
     #menu3 h3, #menu1 h3 {
-        margin-left: 0px;
-       
+        margin-left: 0px;   
     }
     #logomenu1 {
-       border-bottom: 10px solid blue;   
+       border-bottom: 10px solid blue;     
     }
-
     #menus23 {
         border-bottom: 10px solid #F2F2F2; 
         padding-left: 170px;   
     }
 }
-
-@media all and (min-width: 601px) and (max-width: 768px) {
-    
-    #logoetmenus {
-        flex-wrap: nowrap ; 
-        max-width: none; 
-        margin-right: 0px; 
-    }
+    @media all and (min-width: 601px) and (max-width: 768px) {
+        #logoetmenus {
+            flex-wrap: nowrap ; 
+            max-width: none; 
+            margin-right: 0px; 
+        }   
+        #menus23, #logomenu1 {
+            display: block;
+        }  
+        #menu3 h3 {
+            margin-top: 105px;
+            padding-bottom: 20px;   
+            margin-left: 200px;          
+        }
+        #menu1 h3 {
+            border-top: none; 
+            padding-left: 100px; 
+            padding-top:0px;
+            margin-top: 153px; 
+            padding-bottom: 20px;  
+            position: absolute;
+            left: 0px;               
+        } 
+        #menu2 h3{
+            margin-top: 60px;   
+        }
+        #menu3 h3, #menu1 h3 {
+             margin-left: 0px;      
+        }
+        #logomenu1 {
+            border-bottom: 10px solid #0065FC;
+        }
         
-     #menus23, #logomenu1 {
-        display: block;
-    }
-       
-    #menu3 h3 {
-        margin-top: 105px;
-        padding-bottom: 20px;   
-        margin-left: 200px; 
-            
-    }
-    #menu1 h3 {
-        border-top: none; 
-        padding-left: 100px; 
-        padding-top:0px;
-        margin-top: 153px; 
-        padding-bottom: 20px;  
-        position: absolute;
-        left: 0px;  
-               
-    } 
-    #menu2 h3{
-        margin-top: 60px;
-        
-    }
-    #menu3 h3, #menu1 h3 {
-         margin-left: 0px;
-           
-    }
-    #logomenu1 {
-        border-bottom: 10px solid #0065FC;
-    }
+        #menus23 {
+            border-bottom: 10px solid #F2F2F2;
+            padding-left: 240px;       
+        }
     
-    #menus23 {
-        border-bottom: 10px solid #F2F2F2;
-        padding-left: 240px; 
-            
     }
-
-}
 
 #section1 p {
     font-family: 'policereservia';
@@ -659,7 +643,8 @@ button {
 }
 #containermarseille {
     margin-top: 10px;
-    display: flex;       
+    display: flex;  
+    padding-bottom: 50px;      
 }
 .titleactivity {
     margin-left: 10px;
@@ -743,7 +728,8 @@ button {
     display: flex;
     margin-top: 30px;  
     padding-right: 310px;
-    background-color: #F2F2F2;     
+    background-color: #F2F2F2;    
+    padding-bottom: 50px;  
 }
 #apropos {
     padding-top: 30px;
