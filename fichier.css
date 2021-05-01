@@ -42,30 +42,32 @@ i {
     color: #0065FC;
 }
 
-@media all and (max-width: 768px) {
+@media screen and (max-device-width: 768px) {
     h1 {
-        font-size: 30px;
+        font-size: 40px;
     }
     h2 {
-         font-size: 20px;
+         font-size: 30px;
 }
     h3 {
-        font-size: 15px;
+        font-size: 20px;
     }
 }
 
 
 
-#logoetmenus, #menus23, #logomenu1 {
+#logoetmenus, #menus23, #logomenu1{
     display:flex;	
 }
 #menu3 {
 	order: -1;
+   
 }
 #logo {
     margin-top: 30px; 
     padding-right: 500px; 
-    padding-left: 30px;    
+    padding-left: 30px; 
+    
 }
 #logopic {
     position: absolute;
@@ -73,13 +75,18 @@ i {
 }
 #logoetmenus {
     justify-content: flex-end;
-    margin-right: 310px; 
-    
+    margin-right: 310px;      
 }
+
+#menus23 {
+    padding-left: 0mm;     
+}
+
 #menu1 h3 {
     color:#0065FC;
-    border-top: 3px solid blue;
-    padding-top: 20px;       
+    border-top: 2px solid #0065FC; 
+    padding-top: 20px;  
+      
 }
 #menu2 h3, #menu3 h3 {
     margin-left: 30px; 
@@ -87,6 +94,7 @@ i {
 }
 #menu2 h3 {
     color:#0065FC;
+    margin-right: 30px; 
 }
 #menu3 h3 {
     color: black;
@@ -107,83 +115,118 @@ i {
     color: black;
 }
 
-@media all and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     #logoetmenus {
         flex-wrap: nowrap ; 
         max-width: none; 
-        margin-right: 0px;    
-    }
-    
+        margin-right: 0px;  
+    }   
     #menus23, #logomenu1 {
         display: block;
-    }
+    }  
     #menu3 h3 {
         margin-top: 105px;
-        padding-bottom: 20px;    
-        margin-left: 200px;    
+        padding-bottom: 20px;             
+    }
+    #logo {
+        padding-right:0px;
+        padding-left: 0px; 
     }
     #menu1 h3 {
         border-top: none; 
         padding-left: 100px; 
         padding-top:0px;
-        margin-top: 153px; 
+        margin-top: 180px; 
         padding-bottom: 20px;  
         position: absolute;
-        left: 0px;        
+        left: 0px;                 
     } 
     #menu2 h3{
-        margin-top: 60px;
+        margin-top: 60px;   
+        margin-right: 10px; 
     }
     #menu3 h3, #menu1 h3 {
-        margin-left: 0px;   
+         margin-left: 0px;      
     }
     #logomenu1 {
-       border-bottom: 10px solid blue;     
+        border-bottom: 8px solid #0065FC; 
+        padding-left: 500px; 
     }
     #menus23 {
-        border-bottom: 10px solid #F2F2F2; 
-        padding-left: 170px;   
+        padding-left: 250px; 
+        border-bottom: 8px solid #F2F2F2;     
     }
 }
-    @media all and (min-width: 601px) and (max-width: 768px) {
-        #logoetmenus {
-            flex-wrap: nowrap ; 
-            max-width: none; 
-            margin-right: 0px; 
-        }   
-        #menus23, #logomenu1 {
-            display: block;
-        }  
-        #menu3 h3 {
-            margin-top: 105px;
-            padding-bottom: 20px;   
-            margin-left: 200px;          
-        }
-        #menu1 h3 {
-            border-top: none; 
-            padding-left: 100px; 
-            padding-top:0px;
-            margin-top: 153px; 
-            padding-bottom: 20px;  
-            position: absolute;
-            left: 0px;               
-        } 
-        #menu2 h3{
-            margin-top: 60px;   
-        }
-        #menu3 h3, #menu1 h3 {
-             margin-left: 0px;      
-        }
-        #logomenu1 {
-            border-bottom: 10px solid #0065FC;
-        }
-        
-        #menus23 {
-            border-bottom: 10px solid #F2F2F2;
-            padding-left: 240px;       
-        }
-    
+
+@media screen and (max-width: 320px) {
+    #menus23 {
+        padding-left: 0px;    
     }
+    #menu1 h3{
+        padding-left: 25px; 
+        margin-top: 160px;   
+    }
+    #logo {
+        margin-right: 50px; 
+    }
+    #menus23 {
+        padding-left: 20px
+    }   
+}
+
+ 
+@media handheld and (min-width: 321px)  {
+    #menus23 {
+        padding-left: 20px;     
+    }
+    #menu1 h3{
+        padding-left: 0px; 
+        margin-left: 20px;
+    }    
+}
+@media handheld and (min-width: 350px) {
+    #menus23 {
+        padding-left: 30px; 
+        padding-right: 20px; 
+    }
+    #menu1 h3{
+        padding-left: 0px; 
+        margin-left: 20px; 
+    }   
+}
+
+@media handheld and (min-width: 400px) {
+    #menus23 {
+        padding-left: 60px;    
+    }
+    #menu1 h3{
+        margin-left: 40px; 
+    }
+}
+
+@media handheld and (min-width: 460px) {
+    #menus23 {
+        padding-left: 80px;   
+    }
+    #menu1 h3{
+        margin-left: 70px; 
+    }
+}
+@media handheld and (min-width: 500px) {
+    #menus23 {
+        padding-left: 110px; 
+    }  
+}
+@media handheld and (min-width: 600px) {
+    #menus23 {
+        padding-left: 160px;   
+    }
+}
+@media handheld and (min-width: 700px) {
+    #menus23 {
+        padding-left: 200px;   
+    }
+}
 
 #section1 p {
     font-family: 'policereservia';
@@ -263,7 +306,7 @@ button {
 }
 
 
-@media all and (max-width: 768px)  {
+@media screen and (max-device-width: 768px)  {
 
    
     #section1 p {
@@ -351,7 +394,7 @@ button {
 #section2 {
     margin-left: 30px; 
 }
-@media all and (max-width: 768px)  {
+@media screen and (max-device-width: 768px)  {
     #section2 h3 {
         font-family: 'policereservia'; 
         font-size: 15px;    
@@ -434,7 +477,7 @@ button {
     color:black;
 }
 
-@media all and (max-width: 1150px)  {
+@media screen and (max-width: 1150px)  {
 
     .hebergementpic {
         width: 300px; 
@@ -442,23 +485,23 @@ button {
     }
 
 }
-@media all and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
     .hebergementpic {
-        width: 250px; 
+        width: 230px; 
         height: 150px; 
     }
     .containerhebergement {
-        justify-content: flex-start; 
+        justify-content: space-between; 
     }
 }
-@media all and (max-width: 890px) {
+@media screen and (max-width: 890px) {
     .hebergementpic {
         width: 200px; 
         height: 120px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     #section3 {
     display: flex;
     flex-direction: column-reverse;
@@ -468,7 +511,8 @@ button {
         margin-top: 10px; 
     }
     .titlehebergement {
-        font-size: 20px;       
+        font-size: 20px;  
+            
     }
     .prixhebergement {
         font-size: 15px;       
@@ -489,11 +533,12 @@ button {
         margin-bottom: 60px; 
         box-shadow: 20px 20px 20px #F2F2F2;
         margin-right: 35px; 
-        width: 400px;    
+        width: 680px; 
+          
     }
     .hebergementpic {
-        width: 400px;
-        height: 250px;
+        width: 680px;
+        height: 350px;
         border-radius: 30px 30px 0px 0px;      
     } 
     #section3 h3 {
@@ -563,28 +608,34 @@ button {
     color: black;
 }
 
-@media all and (min-width: 768px) and (max-width: 1150px) {
+@media screen and (max-width: 1150px) {
     #section3 {
         display: block;
     }
     .titlelpp {
         font-size: 15px; 
-        margin-left: 330px; 
-        margin-top: 20px; 
+        margin-left: 20px; 
+        margin-top: 0px; 
+        display: flex;
     }
+    .espace {
+        margin-left: 2px; 
+    }
+    
     .starslpp {
-        margin-left: 330px; 
-        top: 100px;
+        margin-left: 20px; 
+        top: 10px;
+        padding-bottom: 20px; 
     }
     .prixlpp {
         font-size: 14px; 
-        margin-left: 330px; 
-        margin-top: 20px; 
+        margin-left: 20px; 
+        margin-top: 10px; 
     }
     .piclpp {
         width: 300px;
         height: 230px;
-        border-radius: 20px 0px 0px 20px;
+        border-radius: 20px 20px 0px 0px;
         border: 5px solid white;
     }
     #containerlespluspopulaires h1 i {
@@ -592,16 +643,56 @@ button {
     }   
     .hebergementlpp {
         border-radius: 20px 20px 20px 20px;
-        margin-right: 120px;    
+        margin-right: px;  
+        display:;
+        
+          
     }
     #containerlespluspopulaires {
         margin-left: 0px; 
         padding-bottom: 50px;   
-        max-width: 700px;
-        display:block; 
+        margin-top: 50px; 
+        
+        
    }
+   #cardslpp {
+       display: flex; 
+   }
+  
+   #imageflottante1, #imageflottante2, #imageflottante3 {
+    float: none; 
 }
-@media all and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 1050px) {
+    
+    .piclpp {
+        width: 250px; 
+        height: 150px; 
+
+    }       
+
+}
+ @media screen and (max-width: 890px) {
+    
+#cardslpp {
+    display: block; 
+}
+#imageflottante1, #imageflottante2, #imageflottante3 {
+    float: left;
+}
+.piclpp {
+    width: 350px; 
+    height: 200px; 
+}
+
+
+ }
+
+
+
+@media screen and (max-width: 768px) {
     #section3 {
         display: flex;
         flex-direction: column-reverse;
@@ -632,6 +723,7 @@ button {
         border-radius: 0px; 
         margin-left: 0px; 
         
+        
     }
     
 }
@@ -640,11 +732,21 @@ button {
 #section4 h1 {
     margin-top: 50px;
     margin-left: 30px; 
+    
 }
-#containermarseille {
+
+#containermarseille1et2 {
+   display: flex; 
+}
+#containermarseille1 {
     margin-top: 10px;
     display: flex;  
     padding-bottom: 50px;      
+}
+
+#containermarseille2 {
+
+    display: flex; 
 }
 .titleactivity {
     margin-left: 10px;
@@ -682,22 +784,26 @@ button {
     object-fit: cover;
 }
 
-@media all and (max-width: 1150px) {
-    .photoactivity1 {
-        width: 700px; 
-        height: 500px; 
-    }
-    .photoactivity {
-        width: 700px; 
-        height: 500px; 
-    }
-    #containermarseille {
-        display: block; 
-    }
-    .activitymarseille, .activitymarseille1 {
+
+@media screen and (max-width: 1150px)  {
+
+    #containermarseille1, #containermarseille2 {
+        display:block; 
+     }
+     .photoactivity1, .photoactivity {
+         width: 300px; 
+         height: 400px; 
+         
+     }
+     
+     #containermarseille2 {
+         padding-top: 10px; 
+     }
+
+     .activitymarseille, .activitymarseille1 {
          
         box-shadow: 6px 6px 6px #F2F2F2;
-        width: 700px; 
+        
     }
     .titleactivity {
         padding-bottom: 30px; 
@@ -706,24 +812,32 @@ button {
     }
 }
 
-@media all and (max-width: 750px) {
-    .photoactivity1 {
-        width: 400px; 
-        height: 300px; 
+@media screen and (max-width: 768px) {
+
+
+    #containermarseille1et2 {
+        display: block;
     }
-    .photoactivity {
-        width: 400px; 
-        height: 300px; 
+    
+
+
+
+    .photoactivity1, .photoactivity {
+        width: 680px; 
+        height: 350px; 
     }
+   
     .activitymarseille, .activitymarseille1 {
     
-        width: 400px; 
+        width: 680px; 
     }
     .titleactivity {
         font-size: 20px; 
     }
 }
  
+
+
 #footer {
     display: flex;
     margin-top: 30px;  
@@ -759,7 +873,7 @@ button {
     list-style-type: none;   
 }
 
-@media all and (max-width: 768px) {
+@media screen and (max-device-width: 768px) {
     #footer {
         display: block;
         margin-top: 50px;   
