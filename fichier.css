@@ -501,8 +501,7 @@ button {
         flex-wrap: wrap;
     }
     #sectionfiltres{
-        display: block; 
-        font-size: px;       
+        display: block;      
     }
     .signe {
         border: 10px solid #DEEBFF; 
@@ -532,9 +531,10 @@ button {
         border: none; 
         font-size: 20px; 
         padding-left: 25px;
-        padding-top: px; 
+        padding-top: 0px; 
         padding-bottom: 0px;  
-        border-left: none;    
+        border-left: none;   
+       
     }
     #espacelieu {
         display: flex; 
@@ -547,23 +547,23 @@ button {
         font-size: 20px; 
         margin-left: 0px; 
         border: 1px solid;
-        padding-top: px; 
-        padding-bottom: px; 
+        padding-bottom: 20px; 
         border: none;   
     }
     button {
         display: unset; 
         background-color: #0065FC;
         border-radius: 10px 10px 10px 10px;   
-        height: 50px; 
-        border: 1px solid #0065FC;   
+        padding-left: 15px; 
+        padding-right: 15px; 
+        border: 1px solid #0065FC;  
+
     }
     #espacelieu button i {
         background-color: #0065FC; 
         color: white; 
         border: 1px solid #0065FC;
-        font-size: 20px;
-        padding-top: 5px;    
+        font-size: 20px;        
     }
     #bouton {
         display: none; 
