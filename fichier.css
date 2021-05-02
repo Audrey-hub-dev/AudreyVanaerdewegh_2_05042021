@@ -42,32 +42,17 @@ i {
     color: #0065FC;
 }
 
-@media screen and (max-device-width: 768px) {
-    h1 {
-        font-size: 40px;
-    }
-    h2 {
-         font-size: 30px;
-}
-    h3 {
-        font-size: 20px;
-    }
-}
-
-
 
 #logoetmenus, #menus23, #logomenu1{
     display:flex;	
 }
 #menu3 {
-	order: -1;
-   
+	order: -1;   
 }
 #logo {
     margin-top: 30px; 
     padding-right: 500px; 
-    padding-left: 30px; 
-    
+    padding-left: 30px;    
 }
 #logopic {
     position: absolute;
@@ -77,14 +62,10 @@ i {
     justify-content: flex-end;
     margin-right: 310px;      
 }
-
-
-
 #menu1 h3 {
     color:#0065FC;
     border-top: 2px solid #0065FC; 
-    padding-top: 20px;  
-      
+    padding-top: 20px;        
 }
 #menu2 h3, #menu3 h3 {
     margin-left: 30px; 
@@ -113,91 +94,6 @@ i {
     color: black;
 }
 
-@media screen and (max-width: 768px) {
-    #logoetmenus {
-        flex-wrap: nowrap ; 
-        max-width: none; 
-        margin-right: 0px;  
-    }   
-    #menus23, #logomenu1 {
-        display: block;
-    }  
-    #menu3 h3 {
-        margin-top: 130px;
-        padding-bottom: 20px;   
-                 
-    }
-    #logo {
-        padding-right:0px;
-        padding-left: 0px; 
-    }
-    #menu1 h3 {
-        border-top: none; 
-        padding-left: 100px; 
-        padding-top:0px;
-        margin-top: 180px; 
-        padding-bottom: 20px;  
-        position: absolute;
-        left: 0px;  
-                      
-    } 
-    #menu2 h3{
-        margin-top: 60px;   
-        margin-right: 10px; 
-    }
-    #menu3 h3, #menu1 h3 {
-         margin-left: 0px;      
-    }
-    #logomenu1 {
-        border-bottom: 8px solid #0065FC; 
-        padding-left: 700px;   
-    }
-    #menus23 {
-        padding-left: 200px; 
-        border-bottom: 8px solid #F2F2F2;  
-            
-    }
-}
-
-
-@media screen and (min-width: 531px) and (max-width: 600px) {
-    #menus23 {
-        padding-left: 150px;   
-    }
-}
-@media screen and (min-width: 425px) and (max-width: 530px) {
-    #menus23 {
-        padding-left: 100px; 
-    }
-    #menu1 h3 {
-        padding-left: 30px; 
-    }
-}
-@media screen and (min-width: 375px) and (max-width: 424px) {
-    #menus23 {
-        padding-left: 60px; 
-    }
-    #menu1 h3 {
-        padding-left: 20px; 
-    }
-}
-@media screen and (min-width: 320px) and (max-width: 374px) {
-    #menus23 {
-        padding-left: 35px; 
-    }
-    #menu1 h3 {
-        padding-left: 10px; 
-    }
-}
-
-
-
-
-
-
-
-
-
 #section1 p {
     font-family: 'policereservia';
     font-size: 13px; 
@@ -215,10 +111,8 @@ i {
     border: 5px solid #0065FC;        
 }
 form {
-    display: flex; 
-    
+    display: flex;    
 }
-
 #iconelieu i {
     border: 2px solid #F2F2F2;
     padding-top: 15px;
@@ -230,7 +124,6 @@ form {
     color: black;
     font-size: 14px;     
 } 
-
 #sectionfiltres {
     display: flex;
     font-family: 'policereserviabold';
@@ -262,7 +155,6 @@ form {
     text-decoration: underline;
     color: pink;
 }
-
 #lieu  {
     border: 2px solid  #F2F2F2;
     padding-top: 10px;
@@ -276,139 +168,8 @@ button {
     display: none; 
 }
 
-
-@media screen and (max-width: 768px)  {
-
-   
-    #section1 p {
-        font-family: 'policereservia'; 
-        font-size: 15px; 
-        margin-left: 30px;
-    }
-    #section1 h1, #section1 h3, #filtres {
-        margin-left: 30px; 
-    }
-    #choixfiltres {
-        flex-wrap: wrap;
-    }
-    #sectionfiltres{
-        display: block; 
-        font-size: px;       
-    }
-    .signe {
-        border: 10px solid #DEEBFF; 
-    }
-    #signefiltre1, #signefiltre2, #signefiltre3, #signefiltre4 {
-        margin-top: 30px; 
-        border-radius: 100px 100px 100px 100px;    
-        border: 2px solid #F2F2F2;  
-        padding-right: 35px; 
-    }
-    .name {
-        margin-bottom: 10px; 
-        margin-top: 10px; 
-        margin-left: 20px; 
-        margin-right: 20px; 
-    }
-    #signefiltre1, #signefiltre3 {
-        width: 30%; 
-    }
-    #signefiltre2 {
-        width: 25%;
-    }
-    #signefiltre4 {
-        width: 45%;    
-        
-    }
-    #lieu {
-        border: none; 
-        font-size: 20px; 
-        padding-left: 25px;
-        padding-top: px; 
-        padding-bottom: 0px;  
-        border-left: none; 
-       
-    }
-
-    #espacelieu {
-        display: flex; 
-        border: 2px solid #F2F2F2; 
-       border-right: none; 
-       
-       border-top-right-radius: 10px; 
-       border-bottom-right-radius: 10px;
-   
-
-    }
-
-    
-        
-     
-       
-
-    #iconelieu i {
-        font-size: 20px; 
-        margin-left: 0px; 
-        border: 1px solid;
-        padding-top: px; 
-        padding-bottom: px; 
-       
-        border: none; 
-       
-    }
-
-
-
-    button {
-        display: unset; 
-        background-color: #0065FC;
-        border-radius: 10px 10px 10px 10px;   
-        height: 50px; 
-        border: 1px solid #0065FC; 
-       
-    }
-    #espacelieu button i {
-       
-        background-color: #0065FC; 
-        color: white; 
-        border: 1px solid #0065FC;
-        font-size: 20px;
-        padding-top: 5px; 
-        
-        
-        
-    }
-    #bouton {
-        display: none; 
-    }  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #section2 {
     margin-left: 30px; 
-}
-@media screen and (max-device-width: 768px)  {
-    #section2 h3 {
-        font-family: 'policereservia'; 
-        font-size: 15px;    
-    }    
 }
 
 #section3 {
@@ -489,149 +250,13 @@ button {
 .hebergement a:visited {
     color:black;
 }
-
-@media screen and (max-width: 1150px)  {
-
-    .hebergementpic {
-        width: 300px; 
-        height: 200px; 
-    }
-
-}
-@media screen and (max-width: 1050px) {
-    .hebergementpic {
-        width: 230px; 
-        height: 150px; 
-    }
-    .containerhebergement {
-        justify-content: space-between; 
-    }
-}
-@media screen and (max-width: 890px) {
-    .hebergementpic {
-        width: 200px; 
-        height: 120px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    #section3 {
-    display: flex;
-    flex-direction: column-reverse;
-    }    
-    .stars {
-        font-size: 15px;  
-        margin-top: 10px; 
-    }
-    .titlehebergement {
-        font-size: 20px;  
-            
-    }
-    .prixhebergement {
-        font-size: 15px;       
-    }
-    .stars, .titlehebergement, .prixhebergement {
-        margin-left: 30px; 
-    }
-    
-    .containerhebergement {
-        display: block;
-    }
-    #hebergementsamarseille {
-        background-color: white; 
-        margin-top: 50px; 
-    }
-    .hebergement {
-        border-radius: 30px 30px 30px 30px; 
-        margin-bottom: 60px; 
-        box-shadow: 20px 20px 20px #F2F2F2;
-        margin-right: 35px; 
-        width: 630px; 
-          
-    }
-
-   
-    .hebergementpic {
-        width: 630px;
-        height: 350px;
-        border-radius: 30px 30px 0px 0px;  
-           
-    } 
-
-    
-    #section3 h3 {
-        font-size: 20px; 
-        padding-top: 50px;    
-    }
-
-    
-}
-@media screen and (max-width: 700px) {
-
-    .hebergementpic {
-        width: 550px; 
-        height: 300px;    
-    }
-    .hebergement {
-        width: 550px; 
-    }
-
-    
-}
-
-@media screen and (max-width: 600px) {
-
-    .hebergementpic {
-        width: 450px; 
-        height: 250px;    
-    }
-    .hebergement {
-        width: 450px; 
-    }
-
-    
-}
-
-@media screen and (max-width: 500px) {
-
-    .hebergementpic {
-        width: 350px; 
-        height: 200px;    
-    }
-    .hebergement {
-        width: 350px; 
-    }
-}
-
-
-
-@media screen and (max-width: 400px) {
-
-    .hebergementpic {
-        width: 250px; 
-        height: 150px;    
-    }
-    .hebergement {
-        width: 250px; 
-    }
-}
-
-
-
-
-
-
-
-
-
 #containerlespluspopulaires {
     margin-left: 30px; 
     padding-top: 20px;
     background-color: #F2F2F2;   
     border-radius: 20px;
     padding-left: 30px;  
-    width: 350px; 
-     
+    width: 350px;      
 }
 #containerlespluspopulaires h1 i {
     color: black;
@@ -665,7 +290,6 @@ button {
     margin-top: 30px;   
     box-shadow: 2px 2px 6px #cfd2d2;   
 }
-
 #imageflottante1, #imageflottante2, #imageflottante3 {
     float: left;
 }
@@ -686,242 +310,10 @@ button {
 .hebergementlpp a:visited {
     color: black;
 }
-
-@media screen and (max-width: 1150px) {
-    #section3 {
-        display: block;
-    }
-    .titlelpp {
-        font-size: 15px; 
-        margin-left: 20px; 
-        margin-top: 0px; 
-        display: flex;
-    }
-    
-    
-    .starslpp {
-        margin-left: 20px; 
-        top: 10px;
-        padding-bottom: 20px; 
-    }
-    .prixlpp {
-        font-size: 14px; 
-        margin-left: 20px; 
-        margin-top: 10px; 
-    }
-    .piclpp {
-        width: 300px;
-        height: 230px;
-        border-radius: 20px 20px 0px 0px;
-        border: 5px solid white;
-    }
-    #containerlespluspopulaires h1 i {
-        margin-left: 30px; 
-    }   
-    .hebergementlpp {
-        border-radius: 20px 20px 20px 20px;
-        width: 310px; 
-        
-    }
-    #containerlespluspopulaires {
-        margin-left: 0px; 
-        padding-bottom: 50px;   
-        margin-top: 50px; 
-        width: auto; 
-        
-        
-   }
-   #cardslpp {
-       display: flex; 
-   }
-  
-   #imageflottante1, #imageflottante2, #imageflottante3 {
-    float: none; 
-}
-
-}
-
-@media screen and (max-width: 1050px) {
-    
-    .piclpp {
-        width: 250px; 
-        height: 150px; 
-
-    }    
-    .hebergementlpp {
-        margin-left: 20px; 
-        width: 260px; 
-    }   
-
-}
-
-@media screen and (max-width: 960px) {
-    .hebergementlpp {
-        margin-left: 0px; 
-    } 
-}
-
-
- @media screen and (max-width: 890px) {
-    
-#cardslpp {
-    display: block;     
-}
-
-.hebergementlpp {
-    width: auto; 
-}
-
-#imageflottante1, #imageflottante2, #imageflottante3 {
-    float:left;
-     
-}
-.piclpp {
-    width: 350px; 
-    height: 200px; 
-    border-radius: 20px 0px 0px 20px; 
-}
-.titlelpp {
-    margin-left: 400px; 
-    margin-top: 20px; 
-
-}
-.prixlpp {
-    margin-left: 400px; 
-}
-.starslpp {
-    margin-left: 400px; 
-}
-
-}
-    
-
-
-
-
-@media screen and (max-width: 768px) {
-    #section3 {
-        display: flex;
-        flex-direction: column-reverse;
-        width: auto;
-        
-    }
-
-    .piclpp {
-        width: 180px;
-        height: 180px;
-        border-radius: 20px 0px 0px 20px; 
-    }
-    .titlelpp {
-        font-size: 20px; 
-        margin-right: 10px; 
-        margin-left: 230px; 
-        margin-top: 15px; 
-    }
-        .starslpp {
-        font-size: 15px; 
-        margin-left: 230px; 
-        top: 40px;
-    }
-        .prixlpp {
-        font-size: 15px; 
-        margin-left: 230px; 
-    }
-    #containerlespluspopulaires {
-        border-radius: 0px; 
-        margin-left: 0px; 
-        
-        
-    }
-    
-}
-
-@media screen and (max-width: 500px) {
-    .piclpp {
-        width: 150px;
-        height: 120px; 
-       
-    }
-    .titlelpp {
-        font-size: 10px; 
-        margin-right: 10px; 
-        margin-left: 170px; 
-        margin-top: 15px; 
-       
-         
-    }
-        .starslpp {
-        font-size: 9px; 
-        margin-left: 170px; 
-        top: 40px;
-    }
-        .prixlpp {
-        font-size: 9px; 
-        margin-left: 170px; 
-    }
-
-}
-
-@media screen and (max-width: 425px) {
-    .piclpp {
-        width: 120px;
-        height: 120px; 
-       
-    }
-    .titlelpp {
-        font-size: 10px; 
-        margin-right: 10px; 
-        margin-left: 150px; 
-        margin-top: 15px; 
-       
-         
-    }
-        .starslpp {
-        font-size: 9px; 
-        margin-left: 140px; 
-        top: 40px;
-    }
-        .prixlpp {
-        font-size: 9px; 
-        margin-left: 140px; 
-    }
-   
-        
-        
-        
-
-
-}
-
-@media screen and (max-width: 375px) {
-    .piclpp {
-        width: 100px;
-        height: 100px; 
-    }
-    .titlelpp {
-        font-size: 10px; 
-        margin-right: 10px; 
-        margin-left: 110px; 
-        margin-top: 15px; 
-    }
-        .starslpp {
-        font-size: 9px; 
-        margin-left: 110px; 
-        top: 40px;
-    }
-        .prixlpp {
-        font-size: 9px; 
-        margin-left: 110px; 
-    }
-}
-
-
 #section4 h1 {
     margin-top: 50px;
-    margin-left: 30px; 
-    
+    margin-left: 30px;    
 }
-
 #containermarseille1et2 {
    display: flex; 
 }
@@ -930,9 +322,7 @@ button {
     display: flex;  
     padding-bottom: 50px;      
 }
-
 #containermarseille2 {
-
     display: flex; 
 }
 .titleactivity {
@@ -976,158 +366,6 @@ button {
 #containermarseille2 {
     margin-top: 10px; 
 }
-
-
-@media screen and (max-width: 1150px)  {
-
-    #containermarseille1, #containermarseille2 {
-        display:block; 
-        
-     }
-     .photoactivity1, .photoactivity2, .photoactivity3 {
-         width: 400px; 
-         height: 400px; 
-        
-         
-     }
-     
-    
-
-     .activitymarseille, .activitymarseille1 {
-         
-        box-shadow: 6px 6px 6px #F2F2F2;
-        
-       
-        
-    }
-    .titleactivity {
-        padding-bottom: 30px; 
-        padding-top: 30px; 
-        font-size:  15px;   
-    }
-   #containermarseille2 {
-       margin-left: 60px; 
-   }
-
-.containeractivity {
-    margin-top: 50px; 
-}
-
-    
-}
-
-@media screen and (max-width: 960px) {
-    
-    .photoactivity1, .photoactivity2, .photoactivity3 {
-        width: 300px; 
-        height: 400px; 
-    }
- 
-    }      
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 768px) {
-
-
-    #containermarseille1et2 {
-        display: block;
-    }
-    
-    #containermarseille2 {
-        margin-left: 0px; 
-    }
-
-
-
-    .photoactivity1, .photoactivity2, .photoactivity3 {
-        width: 630px; 
-        height: 350px; 
-    }
-   
-    .activitymarseille, .activitymarseille1 {
-    
-        width: 630px; 
-    }
-    .titleactivity {
-        font-size: 20px; 
-    }
-}
- 
-
-
-@media screen and (max-width: 700px) {
-
-    .photoactivity1, .photoactivity2, .photoactivity3 {
-        width: 550px; 
-        height: 300px;    
-    }
-    .activitymarseille, .activitymarseille1 {
-        width: 550px; 
-    }
-
-    
-}
-
-@media screen and (max-width: 600px) {
-
-    .photoactivity1, .photoactivity2, .photoactivity3{
-        width: 450px; 
-        height: 250px;    
-    }
-    .activitymarseille, .activitymarseille1 {
-        width: 450px; 
-    }
-
-    
-}
-
-@media screen and (max-width: 500px) {
-
-    .photoactivity1, .photoactivity2, .photoactivity3 {
-        width: 350px; 
-        height: 200px;    
-    }
-    .activitymarseille, .activitymarseille1 {
-        width: 350px; 
-    }
-}
-
-
-
-@media screen and (max-width: 400px) {
-
-    .photoactivity1, .photoactivity2, .photoactivity3 {
-        width: 250px; 
-        height: 150px;    
-    }
-    .activitymarseille, .activitymarseille1 {
-        width: 250px; 
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #footer {
     display: flex;
     margin-top: 30px;  
@@ -1163,6 +401,486 @@ button {
     list-style-type: none;   
 }
 
+
+
+@media screen and (max-device-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+         font-size: 30px;
+}
+    h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #logoetmenus {
+        flex-wrap: nowrap ; 
+        max-width: none; 
+        margin-right: 0px;  
+    }   
+    #menus23, #logomenu1 {
+        display: block;
+    }  
+    #menu3 h3 {
+        margin-top: 130px;
+        padding-bottom: 20px;               
+    }
+    #logo {
+        padding-right:0px;
+        padding-left: 0px; 
+    }
+    #menu1 h3 {
+        border-top: none; 
+        padding-left: 100px; 
+        padding-top:0px;
+        margin-top: 180px; 
+        padding-bottom: 20px;  
+        position: absolute;
+        left: 0px;                   
+    } 
+    #menu2 h3{
+        margin-top: 60px;   
+        margin-right: 10px; 
+    }
+    #menu3 h3, #menu1 h3 {
+        margin-left: 0px;      
+    }
+    #logomenu1 {
+        border-bottom: 8px solid #0065FC; 
+        padding-left: 700px;   
+    }
+    #menus23 {
+        padding-left: 200px; 
+        border-bottom: 8px solid #F2F2F2;          
+    }
+}
+
+@media screen and (min-width: 531px) and (max-width: 600px) {
+    #menus23 {
+        padding-left: 150px;   
+    }
+}
+@media screen and (min-width: 425px) and (max-width: 530px) {
+    #menus23 {
+        padding-left: 100px; 
+    }
+    #menu1 h3 {
+        padding-left: 30px; 
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    #menus23 {
+        padding-left: 60px; 
+    }
+    #menu1 h3 {
+        padding-left: 20px; 
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    #menus23 {
+        padding-left: 35px; 
+    }
+    #menu1 h3 {
+        padding-left: 10px; 
+    }
+}
+
+@media screen and (max-width: 768px)  {
+    #section1 p {
+        font-family: 'policereservia'; 
+        font-size: 15px; 
+        margin-left: 30px;
+    }
+    #section1 h1, #section1 h3, #filtres {
+        margin-left: 30px; 
+    }
+    #choixfiltres {
+        flex-wrap: wrap;
+    }
+    #sectionfiltres{
+        display: block; 
+        font-size: px;       
+    }
+    .signe {
+        border: 10px solid #DEEBFF; 
+    }
+    #signefiltre1, #signefiltre2, #signefiltre3, #signefiltre4 {
+        margin-top: 30px; 
+        border-radius: 100px 100px 100px 100px;    
+        border: 2px solid #F2F2F2;  
+        padding-right: 35px; 
+    }
+    .name {
+        margin-bottom: 10px; 
+        margin-top: 10px; 
+        margin-left: 20px; 
+        margin-right: 20px; 
+    }
+    #signefiltre1, #signefiltre3 {
+        width: 30%; 
+    }
+    #signefiltre2 {
+        width: 25%;
+    }
+    #signefiltre4 {
+        width: 45%;       
+    }
+    #lieu {
+        border: none; 
+        font-size: 20px; 
+        padding-left: 25px;
+        padding-top: px; 
+        padding-bottom: 0px;  
+        border-left: none;    
+    }
+    #espacelieu {
+        display: flex; 
+        border: 2px solid #F2F2F2; 
+        border-right: none; 
+        border-top-right-radius: 10px; 
+        border-bottom-right-radius: 10px;
+    }
+    #iconelieu i {
+        font-size: 20px; 
+        margin-left: 0px; 
+        border: 1px solid;
+        padding-top: px; 
+        padding-bottom: px; 
+        border: none;   
+    }
+    button {
+        display: unset; 
+        background-color: #0065FC;
+        border-radius: 10px 10px 10px 10px;   
+        height: 50px; 
+        border: 1px solid #0065FC;   
+    }
+    #espacelieu button i {
+        background-color: #0065FC; 
+        color: white; 
+        border: 1px solid #0065FC;
+        font-size: 20px;
+        padding-top: 5px;    
+    }
+    #bouton {
+        display: none; 
+    }  
+}
+
+@media screen and (max-device-width: 768px)  {
+    #section2 h3 {
+        font-family: 'policereservia'; 
+        font-size: 15px;    
+    }    
+}
+
+@media screen and (max-width: 1150px)  {
+    .hebergementpic {
+        width: 300px; 
+        height: 200px; 
+    }
+}
+@media screen and (max-width: 1050px) {
+    .hebergementpic {
+        width: 230px; 
+        height: 150px; 
+    }
+    .containerhebergement {
+        justify-content: space-between; 
+    }
+}
+@media screen and (max-width: 890px) {
+    .hebergementpic {
+        width: 200px; 
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #section3 {
+        display: flex;
+        flex-direction: column-reverse;
+    }    
+    .stars {
+        font-size: 15px;  
+        margin-top: 10px; 
+    }
+    .titlehebergement {
+        font-size: 20px;         
+    }
+    .prixhebergement {
+        font-size: 15px;       
+    }
+    .stars, .titlehebergement, .prixhebergement {
+        margin-left: 30px; 
+    }
+    .containerhebergement {
+        display: block;
+    }
+    #hebergementsamarseille {
+        background-color: white; 
+        margin-top: 50px; 
+    }
+    .hebergement {
+        border-radius: 30px 30px 30px 30px; 
+        margin-bottom: 60px; 
+        box-shadow: 20px 20px 20px #F2F2F2;
+        margin-right: 35px; 
+        width: 630px;      
+    }
+    .hebergementpic {
+        width: 630px;
+        height: 350px;
+        border-radius: 30px 30px 0px 0px;        
+    } 
+    #section3 h3 {
+        font-size: 20px; 
+        padding-top: 50px;    
+    }  
+}
+
+@media screen and (max-width: 1150px) {
+    #section3 {
+        display: block;
+    }
+    .titlelpp {
+        font-size: 15px; 
+        margin-left: 20px; 
+        margin-top: 0px; 
+        display: flex;
+    }
+    .starslpp {
+        margin-left: 20px; 
+        top: 10px;
+        padding-bottom: 20px; 
+    }
+    .prixlpp {
+        font-size: 14px; 
+        margin-left: 20px; 
+        margin-top: 10px; 
+    }
+    .piclpp {
+        width: 300px;
+        height: 230px;
+        border-radius: 20px 20px 0px 0px;
+        border: 5px solid white;
+    }
+    #containerlespluspopulaires h1 i {
+        margin-left: 30px; 
+    }   
+    .hebergementlpp {
+        border-radius: 20px 20px 20px 20px;
+        width: 310px;    
+    }
+    #containerlespluspopulaires {
+        margin-left: 0px; 
+        padding-bottom: 50px;   
+        margin-top: 50px; 
+        width: auto;     
+    }
+    #cardslpp {
+       display: flex; 
+    }
+    #imageflottante1, #imageflottante2, #imageflottante3 {
+    float: none; 
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .piclpp {
+        width: 250px; 
+        height: 150px; 
+    }    
+    .hebergementlpp {
+        margin-left: 20px; 
+        width: 260px; 
+    }   
+}
+@media screen and (max-width: 960px) {
+    .hebergementlpp {
+        margin-left: 0px; 
+    } 
+}
+
+@media screen and (max-width: 890px) {
+    #cardslpp {
+        display: block;     
+    }
+    .hebergementlpp {
+        width: auto; 
+    }
+    #imageflottante1, #imageflottante2, #imageflottante3 {
+        float:left;    
+    }
+    .piclpp {
+        width: 350px; 
+        height: 200px; 
+        border-radius: 20px 0px 0px 20px; 
+    }
+    .titlelpp {
+        margin-left: 400px; 
+        margin-top: 20px; 
+    }
+    .prixlpp {
+        margin-left: 400px; 
+    }
+    .starslpp {
+        margin-left: 400px; 
+    }
+}
+    
+@media screen and (max-width: 768px) {
+    #section3 {
+        display: flex;
+        flex-direction: column-reverse;
+        width: auto;   
+    }
+    .piclpp {
+        width: 180px;
+        height: 180px;
+        border-radius: 20px 0px 0px 20px; 
+    }
+    .titlelpp {
+        font-size: 20px; 
+        margin-right: 10px; 
+        margin-left: 230px; 
+        margin-top: 15px; 
+    }
+    .starslpp {
+        font-size: 15px; 
+        margin-left: 230px; 
+        top: 40px;
+    }
+    .prixlpp {
+        font-size: 15px; 
+        margin-left: 230px; 
+    }
+    #containerlespluspopulaires {
+        border-radius: 0px; 
+        margin-left: 0px;    
+    }   
+}
+
+@media screen and (max-width: 500px) {
+    .piclpp {
+        width: 150px;
+        height: 120px;   
+    }
+    .titlelpp {
+        font-size: 10px; 
+        margin-right: 10px; 
+        margin-left: 170px; 
+        margin-top: 15px;     
+    }
+    .starslpp {
+        font-size: 9px; 
+        margin-left: 170px; 
+        top: 40px;
+    }
+    .prixlpp {
+        font-size: 9px; 
+        margin-left: 170px; 
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .piclpp {
+        width: 120px;
+        height: 120px; 
+       
+    }
+    .titlelpp {
+        font-size: 10px; 
+        margin-right: 10px; 
+        margin-left: 150px; 
+        margin-top: 15px;        
+    }
+    .starslpp {
+        font-size: 9px; 
+        margin-left: 140px; 
+        top: 40px;
+    }
+    .prixlpp {
+        font-size: 9px; 
+        margin-left: 140px; 
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .piclpp {
+        width: 100px;
+        height: 100px; 
+    }
+    .titlelpp {
+        font-size: 10px; 
+        margin-right: 10px; 
+        margin-left: 110px; 
+        margin-top: 15px; 
+    }
+        .starslpp {
+        font-size: 9px; 
+        margin-left: 110px; 
+        top: 40px;
+    }
+        .prixlpp {
+        font-size: 9px; 
+        margin-left: 110px; 
+    }
+}
+
+@media screen and (max-width: 1150px)  {
+    #containermarseille1, #containermarseille2 {
+        display:block;    
+    }
+    .photoactivity1, .photoactivity2, .photoactivity3 {
+         width: 400px; 
+         height: 400px;     
+    }
+    .activitymarseille, .activitymarseille1 { 
+        box-shadow: 6px 6px 6px #F2F2F2;   
+    }
+    .titleactivity {
+        padding-bottom: 30px; 
+        padding-top: 30px; 
+        font-size:  15px;   
+    }
+   #containermarseille2 {
+       margin-left: 60px; 
+   }
+    .containeractivity {
+    margin-top: 50px; 
+    }    
+}
+
+@media screen and (max-width: 960px) {
+    .photoactivity1, .photoactivity2, .photoactivity3 {
+        width: 300px; 
+        height: 400px; 
+    }
+ 
+}      
+@media screen and (max-width: 768px) {
+    #containermarseille1et2 {
+        display: block;
+    }
+    #containermarseille2 {
+        margin-left: 0px; 
+    }
+    .photoactivity1, .photoactivity2, .photoactivity3 {
+        width: 630px; 
+        height: 350px; 
+    }
+    .activitymarseille, .activitymarseille1 {
+       width: 630px; 
+    }
+    .titleactivity {
+        font-size: 20px; 
+    }
+}
+
 @media screen and (max-width: 768px) {
     #footer {
         display: block;
@@ -1171,19 +889,54 @@ button {
         width: 900px; 
     }
     #apropos, #hebergementfooter, #assistance {
-        padding-top: 30px;    
-        
+        padding-top: 30px;       
     }
     #apropos h2, #hebergementfooter h2, #assistance h2 {
         font-size: 20px;
         margin-left: 30px; 
     }
-
     .lienapropos a, .liensha a {
         font-size: 18px; 
         margin-left: 30px;  
     }
     #hebergementfooter, #assistance, .liensha {
         margin-left: 0px; 
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .hebergementpic, .photoactivity1, .photoactivity2, .photoactivity3  {
+        width: 550px; 
+        height: 300px;    
+    }
+    .hebergement, .activitymarseille, .activitymarseille1 {
+        width: 550px; 
+    }   
+}
+@media screen and (max-width: 600px) {
+    .hebergementpic,.photoactivity1, .photoactivity2, .photoactivity3 {
+        width: 450px; 
+        height: 250px;    
+    }
+    .hebergement, .activitymarseille, .activitymarseille1 {
+        width: 450px; 
+    }   
+}
+@media screen and (max-width: 500px) {
+    .hebergementpic, .photoactivity1, .photoactivity2, .photoactivity3 {
+        width: 350px; 
+        height: 200px;    
+    }
+    .hebergement, .activitymarseille, .activitymarseille1  {
+        width: 350px; 
+    }
+}
+@media screen and (max-width: 400px) {
+    .hebergementpic, .photoactivity1, .photoactivity2, .photoactivity3 {
+        width: 250px; 
+        height: 150px;    
+    }
+    .hebergement, .activitymarseille, .activitymarseille1 {
+        width: 250px; 
     }
 }
