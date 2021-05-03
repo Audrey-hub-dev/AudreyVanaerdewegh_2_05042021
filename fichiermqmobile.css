@@ -1,9 +1,9 @@
-@media all and (max-device-width: 991px) {
+@media all and (max-device-width: 768px) {
     h1 {
-        font-size: 50px;
+        font-size: 70px;
      }
     h2 {
-         font-size: 45px;
+         font-size: 50px;
      }
 
     h3 {
@@ -14,8 +14,6 @@
     }
     #logoetmenus {
         flex-wrap: nowrap; 
-        max-width: none; 
-        margin-right: 0px; 
         justify-content: inherit;
     }
     
@@ -23,22 +21,18 @@
 	    display: block;
     }
     #menu3 h3 {
-        border-bottom: 10px solid #F2F2F2;
-        margin-top: 105px;
-        padding-left: 300px; 
-        padding-right: 150px; 
+        margin-top: 130px;    
     }
     #menu1 h3 {
         border-top: none; 
-        border-bottom: 10px solid blue;
-        padding-left: 100px; 
-        padding-right: 220px; 
+        padding-left: 200px; 
+        padding-right: 150px; 
         padding-top:0px;
-        margin-top: 252px; 
+        margin-top: 252px;  
     } 
     #menu2 h3{
-        margin-left: 350px; 
         margin-top: 100px;
+        margin-left: 0px; 
     }
     #menu3 h3, #menu1 h3, #menu2 h3 {
         font-size: 40px;
@@ -47,17 +41,25 @@
         margin-left: 0px;
         padding-bottom: 30px;
     }
+    #menus23 { 
+        padding-left: 800px;     
+    }
+    #logomenu1 {
+        padding-right: 400px; 
+    }
 
+    #section1 {
+    width: 2000px; 
+    }
     #section1 p {
         font-family: 'policereservia'; 
         font-size: 15px; 
         margin-left: 30px;
     }
-    #section1 h1, #section1 h3, #filtres {
-        margin-left: 30px; 
-    }
+    
     #choixfiltres {
         flex-wrap: wrap;
+       
     }
     #sectionfiltres{
         display: block; 
@@ -71,6 +73,7 @@
         border-radius: 100px 100px 100px 100px;    
         border: 5px solid #F2F2F2;  
         padding-right: 35px; 
+        margin-right: 100px; 
     }
     .name {
         margin-bottom: 20px; 
@@ -79,13 +82,13 @@
         margin-right: 20px; 
     }
     #signefiltre1, #signefiltre3 {
-        width: 40%; 
+        width: 20%; 
     }
     #signefiltre2 {
-        width: 30%;
+        width: 15%;
     }
     #signefiltre4 {
-        width: 55%;    
+        width: 30%;    
     }
     #lieu {
         font-size: 45px; 
@@ -133,26 +136,24 @@
 
     #section2 h3 {
         font-family: 'policereservia'; 
-        font-size: 15px; 
+        font-size: 40px; 
         margin-left: 30px;
+        width: 1800px; 
     }    
     .stars {
-        font-size: 15px;  
         margin-top: 10px; 
     }
     .titlehebergement {
-        font-size: 40px;       
+        font-size: 55px;       
     }
-    .prixhebergement {
-        font-size: 25px;       
+    .prixhebergement, .stars {
+        font-size: 45px; 
+        margin-top: 20px; 
     }
-    .stars, .titlehebergement, .prixhebergement {
-        margin-left: 30px; 
-    }
+
     #section3 {
         display: flex;
-        flex-direction: column-reverse;
-        width: 1220px; 
+        flex-direction: column-reverse;   
     }
     .containerhebergement {
         display: block;
@@ -160,16 +161,25 @@
     #hebergementsamarseille {
         background-color: white; 
         margin-top: 50px; 
+        margin-left: 30px; 
+    }
+    #hebergementsamarseille h1{
+        padding-bottom: 30px; 
+        white-space: nowrap;
+        margin-left: 30px; 
+    
     }
     .hebergement {
         border-radius: 60px 60px 60px 60px; 
         margin-bottom: 60px; 
         box-shadow: 20px 20px 20px #F2F2F2;
-        margin-right: 35px;    
+        margin-right: 35px;  
+        width: 1900px; 
+  
     }
     .hebergementpic {
-        width: 1100px;
-        height: 550px;
+        width: 1900px;
+        height: 800px;
         border-radius: 60px 60px 0px 0px;      
     } 
     #section3 h3 {
@@ -179,21 +189,23 @@
     .titlelpp {
         font-size: 55px; 
         margin-right: 10px; 
-        margin-left: 530px; 
+        margin-left: 900px; 
         margin-top: 80px; 
     }
     .starslpp {
-        font-size: 40px; 
-        margin-left: 530px; 
-        top: 150px;
+        font-size: 45px; 
+        margin-left: 900px; 
+        top: 300px;
     }
     .prixlpp {
-        font-size: 50px; 
-        margin-left: 530px; 
+        margin-left: 900px; 
+        font-size: 45px; 
+        margin-top: 30px; 
+       
     }
     .piclpp {
-        width: 450px;
-        height: 500px;
+        width: 700px;
+        height: 600px;
         border-radius: 60px 0px 0px 60px; 
         border: 5px solid white;
     }
@@ -203,41 +215,61 @@
         padding-bottom: 50px; 
     }
     #containerlespluspopulaires h1 i {
-        margin-left: 400px; 
+        margin-left: 1200px; 
     } 
     .hebergementlpp {
-        border-radius: 60px 60px 60px 60px; 
-        margin-left: 30px; 
-        width: 1100px;    
+        border-radius: 60px 60px 60px 60px;  
+        width: 1900px;    
         margin-bottom: 50px; 
+        margin-left: 30px; 
     }
     #containerlespluspopulaires {
-        border-radius: 0px 0px 0px 0px; 
-        max-width: none;           
-   }
+        border-radius: 60px 60px 60px 60px;
+        width: 2100px; 
+    }
+    .titlelpp {
+        font-size: 55px; 
+        margin-right: 10px; 
+        margin-left: 900px; 
+        margin-top: 80px; 
+    }
+    .starslpp {
+        font-size: 45px; 
+        margin-left: 900px; 
+        top: 300px;
+    }
+    .prixlpp {
+        margin-left: 900px; 
+        font-size: 45px; 
+        margin-top: 30px; 
+       
+    }
     #containermarseille, .containeractivity {
         display: block; 
     }
     #section4 {
         margin-top: 100px; 
-        margin-left: 30px; 
-        margin-right: 30px;     
+        margin-right: 30px;  
+        margin-left: 30px;  
     }  
-    .photoactivity1, .photoactivity {
-        width: 1100px; 
-        height: 550px; 
+
+    #section4 h1 {
+        white-space: nowrap;
+       
+    }
+    .photoactivity1, .photoactivity2, .photoactivity3 {
+        width: 1900px; 
+        height: 800px; 
         border-radius: 60px 60px 0px 0px; 
     }
-    .firstpic, .containeractivity {
-        width: 1160px; 
-    } 
+   
     .activitymarseille, .activitymarseille1 {
         margin-bottom: 60px; 
         border-radius: 60px 60px 60px 60px; 
         text-shadow: 20px 20px 20px #F2F2F2; 
         box-shadow: 20px 20px 20px #F2F2F2;
         margin-right: 30px; 
-        width: 1100px;    
+        width: 1900px;    
     }
     .titleactivity {
         font-size: 55px; 
@@ -247,11 +279,13 @@
     #footer {
         display: block;
         margin-top: 150px;   
-        padding-bottom: 100px;
-        width: 900px; 
+        padding-bottom: 200px;
+        width: 1800px; 
     }
-    #apropos, #hebergementfooter, #assistance {
-        padding-top: 100px;       
+    
+    #apropos h2, #hebergementfooter h2, #assistance h2 {
+        font-size: 45px;
+        padding-top: 100px;   
     }
     #apropos {
         margin-left: 30px;  
@@ -268,5 +302,210 @@
     }
     .lienapropos a, .liensha a {
         font-size: 35px; 
+    }
+
+}
+@media all and (max-device-width: 522px) {
+    #menus23 {
+        padding-left: 300px;
+        padding-right: 600px;   
+    }
+    #logo img {
+        width: 50%;
+    }
+    .piclpp {
+        width: 400px; 
+        height: 400px; 
+    }
+    .titlelpp {
+        margin-left: 450px; 
+        margin-top: 20px; 
+    }
+    .starslpp {
+        margin-left: 450px; 
+        top: 100px;
+    }
+    .prixlpp {
+        margin-left: 450px;
+    }
+    .hebergementlpp {
+        width: 1800px;      
+    }
+    #containerlespluspopulaires h1 i {
+        margin-left: 900px; 
+    } 
+    .photoactivity1, .photoactivity2, .photoactivity3 {
+        width: 1500px; 
+        height: 800px; 
+    }
+    .activitymarseille, .activitymarseille1 {
+        width: 1500px;    
+    }
+    .hebergement {
+        width: 1500px; 
+  
+    }
+    .hebergementpic {
+        width: 1500px;
+        height: 800px;
+          
+    } 
+}
+
+
+@media all and (max-device-width: 480px) {
+    #section1 h1 {
+        font-size: 60px;
+    }
+    
+    .titlelpp, .titleactivity, .titlehebergement {
+        font-size: 50px; 
+    }
+    
+    .hebergementlpp {
+        width: 1500px;      
+    }
+    #section2 h3 {
+        font-size: 40px; 
+    }
+    #apropos h2, #hebergementfooter h2, #assistance h2 {
+        font-size: 55px; 
+    }
+    .lienapropos a, .liensha a {
+        font-size: 45px; 
+    }
+    #containerlespluspopulaires h1 i {
+        margin-left: 700px; 
+    } 
+    #containerlespluspopulaires h1 {
+        font-size: 60px;
+    }
+    #section4 h1 {
+        font-size: 60px; 
+
+    }
+    #hebergementsamarseille h1 {
+        font-size: 60px; 
+
+    }
+
+}
+
+@media all and (max-device-width: 415px) {
+    #section1 h1 {
+        font-size: 50px;
+    }
+    
+    .titlelpp, .titlehebergement, .titleactivity {
+        font-size: 45px; 
+    }
+    
+    .hebergementlpp {
+        width: 1500px;      
+    }
+    #section2 h3 {
+        font-size: 40px; 
+    }
+    #apropos h2, #hebergementfooter h2, #assistance h2 {
+        font-size: 45px; 
+    }
+    .lienapropos a, .liensha a {
+        font-size: 40px; 
+    }
+    #containerlespluspopulaires h1 i {
+        margin-left: 700px; 
+    } 
+    #containerlespluspopulaires h1 {
+        font-size: 50px;
+    }
+    #section4 h1 {
+        font-size: 50px; 
+    }
+    #hebergementsamarseille h1 {
+        font-size: 50px; 
+    }
+    #choixfiltres {
+        flex-wrap: wrap; 
+    }
+     #signefiltre3, #signefiltre4 {
+        margin-right: 1000px; 
+     }
+}
+
+@media all and (max-device-width: 407px) {
+    #logomenu1 {
+        padding-right: 0px;    
+    }
+    .photoactivity1, .photoactivity2, .photoactivity3 {
+        width: 1200px; 
+        height: 500px; 
+    }
+    .activitymarseille, .activitymarseille1 {
+        width: 1200px;    
+    }
+    .hebergement {
+        width: 1200px; 
+  
+    }
+    .hebergementpic {
+        width: 1200px;
+        height: 500px;      
+    } 
+    #containerlespluspopulaires h1 i {
+        margin-left: 700px; 
+    } 
+    .hebergementlpp {
+        width: 1200px;      
+    }
+
+}
+@media all and (max-device-width: 350px) {
+    
+    #section1 h1  {
+       width: 900px; 
+       font-size: 60px;    
+        
+    }
+    .photoactivity1, .photoactivity2, .photoactivity3 {
+        width: 1100px; 
+        height: 400px; 
+    }
+    .activitymarseille, .activitymarseille1 {
+        width: 1100px;    
+    }
+    .hebergement {
+        width: 1100px; 
+  
+    }
+    .hebergementpic {
+        width: 1100px;
+        height: 400px;      
+    } 
+    #containerlespluspopulaires h1 i {
+        margin-left: 500px; 
+    } 
+    .hebergementlpp {
+        width: 1100px;      
+    }
+
+    .titlelpp, .titlehebergement, .titleactivity {
+        font-size: 50px; 
+    }
+    
+    #apropos h2, #hebergementfooter h2, #assistance h2 {
+        font-size: 55px; 
+    }
+    .lienapropos a, .liensha a {
+        font-size: 45px; 
+    }
+   
+    #containerlespluspopulaires h1 {
+        font-size: 60px;
+    }
+    #section4 h1 {
+        font-size: 60px; 
+    }
+    #hebergementsamarseille h1 {
+        font-size: 60px; 
     }
 }
