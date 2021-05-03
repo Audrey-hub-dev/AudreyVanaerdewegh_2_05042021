@@ -51,19 +51,19 @@ i {
 #logo {
     margin-top: 30px; 
     padding-right: 500px; 
-    padding-left: 30px; 
+    padding-left: 30px;    
 }
 #logopic {
     position: absolute;
-    left: 30px;
+    left: 30px;   
 }
 #logoetmenus {
     justify-content: flex-end;
-    margin-right: 310px;
+    margin-right: 310px;      
 }
 #menu1 h3 {
     color:#0065FC;
-    border-top: 2px solid blue;
+    border-top: 2px solid #0065FC; 
     padding-top: 20px;        
 }
 
@@ -119,11 +119,11 @@ form {
 #iconelieu i {
     border: 2px solid #F2F2F2;
     padding-top: 15px;
-    padding-bottom: 17px; 
-    padding-right: 15px; 
-    padding-left: 15px; 
-    border-radius: 10px 0px 0px 10px; 
-    background-color: #F2F2F2;
+    padding-bottom: 17px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 10px 0px 0px 10px;
+    background: #F2F2F2;
     color: black;
     font-size: 14px; 
 }
@@ -257,13 +257,12 @@ button {
 .hebergement a:visited {
     color:black;
 }
-
 #containerlespluspopulaires {
     margin-left: 30px;
     padding-top: 20px;
     background-color: #F2F2F2;   
     border-radius: 20px;
-    padding-left: 30px;     
+    padding-left: 30px;  
     width: 350px;      
 }
 #containerlespluspopulaires h1 i {
@@ -319,7 +318,6 @@ button {
 .hebergementlpp a:visited {
     color: black;
 }
-
 #section4 h1 {
     margin-top: 50px;
     margin-left: 30px;    
@@ -371,7 +369,6 @@ button {
     height: 125px; 
     object-fit: cover;
 }
-
 .photoactivity3 {
     margin-top: 6px; 
        
@@ -380,7 +377,6 @@ button {
 #containermarseille2 {
     margin-top: 10px; 
 }
-
 #footer {
     display: flex;
     margin-top: 30px;  
@@ -417,15 +413,18 @@ button {
     list-style-type: none;   
 }
 
-@media screen and (max-width: 768px) {
+
+
+@media all and (max-width: 768px) {
     h1 {
-        font-size: 40px;
-    }
+        font-size: 30px;
+     }
     h2 {
-         font-size: 30px;
-}
+         font-size: 20px;
+     }
+
     h3 {
-        font-size: 20px;
+        font-size: 15px;
     }
 }
 
@@ -895,8 +894,7 @@ button {
     }
 }
 
-@media all and (max-device-width: 768px) {
-
+@media screen and (max-width: 768px) {
     #footer {
         display: block;
         margin-top: 150px;   
@@ -904,7 +902,7 @@ button {
         width: 900px; 
     }
     #apropos, #hebergementfooter, #assistance {
-        padding-top: 30px;      
+        padding-top: 30px;       
     }
     #apropos h2, #hebergementfooter h2, #assistance h2 {
         font-size: 20px;
