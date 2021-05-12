@@ -345,13 +345,10 @@ button {
 #containermarseille1et2 {
     display: flex; 
     margin-right: 30px; 
-    margin-left: 30px;  
+    margin-left: 30px;    
 }
-#containermarseille1 {
-    display: flex;          
-}
-#containermarseille2 {
-    display: flex;  
+#containermarseille1, #containermarseille2 {
+    display: flex;         
 }
 .titleactivity {
     margin-left: 20px;
@@ -365,7 +362,7 @@ button {
     margin-right: 80px;   
 }
 .activitymarseille1 {
-    margin-top: 55px; 
+    margin-top: 50px; 
 }
 .photoactivity1, .photoactivity2, .photoactivity3 {
     border-radius : 20px 20px 0px 0px;    
