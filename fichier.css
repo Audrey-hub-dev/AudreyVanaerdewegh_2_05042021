@@ -493,7 +493,8 @@ float: none;
          height: 450px;     
     }
     .activitymarseille, .activitymarseille1 { 
-        box-shadow: 6px 6px 6px #F2F2F2;   
+        box-shadow: 6px 6px 6px #F2F2F2; 
+        margin-top: 50px;   
     }
     .titleactivity {
         padding-bottom: 30px; 
@@ -503,9 +504,6 @@ float: none;
     #containermarseille2 {
        margin-left: 60px; 
    }
-    .containeractivity {
-        margin-top: 50px; 
-    }  
     #sectionfiltres {
         font-size: 15px; 
     }  
@@ -960,35 +958,35 @@ button {
 }
 }
 @media all and (max-width: 434px) {
-    .photoactivity1, .photoactivity2, .photoactivity3, .hebergementpic {
-        width: 1500px; 
-        height: 800px; 
-    }
-    .activitymarseille, .activitymarseille1, .hebergement {
-        width: 1500px;    
-    }
-    .hebergementlpp {
-        width: 1600px;     
-    }
+.photoactivity1, .photoactivity2, .photoactivity3, .hebergementpic {
+    width: 1500px; 
+    height: 800px; 
+}
+.activitymarseille, .activitymarseille1, .hebergement {
+    width: 1500px;    
+}
+.hebergementlpp {
+    width: 1600px;     
+}
     
 }
 @media all and (max-width: 425px) {
-    .photoactivity1, .photoactivity2, .photoactivity3, .hebergementpic {
-        width: 1300px; 
-        height: 600px; 
-    }
-    .activitymarseille, .activitymarseille1, .hebergement {
-        width: 1300px;    
-    }
-    .hebergementlpp {
-        width: 1400px;     
-    }
+.photoactivity1, .photoactivity2, .photoactivity3, .hebergementpic {
+    width: 1300px; 
+    height: 600px; 
+}
+.activitymarseille, .activitymarseille1, .hebergement {
+    width: 1300px;    
+}
+.hebergementlpp {
+    width: 1400px;     
+}
 
 }
 @media all and (max-width: 420px) {
-    h1 {
-        white-space: normal;
-        width: 1200px; 
+h1 {
+    white-space: normal;
+    width: 1200px; 
     }
 }
 @media all and (max-width: 390px) {
