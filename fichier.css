@@ -707,6 +707,36 @@ float: none;
     #menu2 {
         border-bottom: 3px solid #F2F2F2;
     }
+    #lieu {
+        padding-top: 15px; 
+        padding-bottom: 17px;  
+        border-right: none; 
+        border-bottom-right-radius: 5px;  
+        border-top-right-radius: 5px; ;
+    }
+    #iconelieu i { 
+        padding-bottom: 20px;    
+    }   
+    button {
+        display: unset; 
+        background-color:#0065FC;
+        border-radius: 10px 10px 10px 10px; 
+        padding-left: 15px;
+        padding-right: 15px; 
+        border: none; 
+        padding-top: 15px;
+        padding-bottom: 15px;    
+    }
+    #sectionrecherchefiltres form button i {
+        background-color:#0065FC; 
+        color: white; 
+        border: none; 
+        border-radius: 30px 30px 30px 30px; 
+        padding-top: 0px; 
+    }
+     #bouton {
+         display: none; 
+    }  
     #sectionhebergementsetlpp {
         display: flex;
         flex-direction: column-reverse;
