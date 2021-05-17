@@ -616,34 +616,6 @@ float: none;
      overflow-x: hidden;
      margin:0;
      padding: 0; 
- }
-    header a {
-        padding: 0px 0px;  
-    }
-    #headerlogo {
-       flex-basis: 50%;
-       margin-left: 20px;   
-    }
-    #menu {
-        flex-grow:1; 
-        flex-basis: 100%; 
-        display: flex;
-        flex-wrap: wrap;
-        order: 3; 
-        margin-top: 50px;     
-    }
-    #menu a {
-        flex-grow: 1;
-        flex-basis: 50%; 
-        text-align: center;
-        padding-bottom: 10px;     
-    }
-    #menu1 {
-        border-bottom: 3px solid #0065FC;
-        border-top: none; 
-    }
-    #menu2 {
-        border-bottom: 3px solid #F2F2F2;
     }
     #choixfiltres {
         flex-wrap: wrap;       
@@ -695,7 +667,6 @@ float: none;
 .titlelpp, .starslpp, .prixlpp {
     margin-left: 210px;  
 }
-
 }
 @media all and (max-width: 550px) {
 .photoactivity1, .photoactivity2, .photoactivity3, .activitymarseille,.activitymarseille1 {
@@ -706,15 +677,42 @@ float: none;
     width: 250px; 
 }
 }
-
 @media all and (max-width: 480px) {
+    header a {
+        padding-right: 0px; 
+        padding-left: 0px;  
+    }
+    #headerlogo {
+       flex-basis: 50%;
+       margin-left: 20px;   
+    }
+    #menu {
+        flex-grow:1; 
+        flex-basis: 100%; 
+        display: flex;
+        flex-wrap: wrap;
+        order: 3; 
+        margin-top: 50px;     
+    }
+    #menu a {
+        flex-grow: 1;
+        flex-basis: 50%; 
+        text-align: center;
+        padding-bottom: 10px;     
+    }
+    #menu1 {
+        border-bottom: 3px solid #0065FC;
+        border-top: none; 
+    }
+    #menu2 {
+        border-bottom: 3px solid #F2F2F2;
+    }
     #sectionhebergementsetlpp {
         display: flex;
         flex-direction: column-reverse;
         margin-top: 5px; 
         width: 100%; 
-        margin-left: 0px; 
-        
+        margin-left: 0px;    
     }
     #containerlespluspopulaires h2 {
         margin-top: 5px; 
@@ -791,6 +789,9 @@ float: none;
 @media all and (min-width: 360px) and (max-width: 410px) {
     #footer, header, #containerlespluspopulaires {
         width: 430px;    
+    }
+    #menu3 {
+        margin-right: 70px; 
     }
 }
 @media all and (max-width:390px) {
