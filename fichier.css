@@ -625,23 +625,25 @@ float: none;
        margin-left: 20px;   
     }
     #menu {
-        flex: 1 100%; 
+        flex-grow:1; 
+        flex-basis: 100%; 
         display: flex;
         flex-wrap: wrap;
         order: 3; 
         margin-top: 50px;     
     }
     #menu a {
-        flex: 1 50%;
+        flex-grow: 1;
+        flex-basis: 50%; 
         text-align: center;
-        padding-bottom: 10px; 
-        border-bottom: 3px solid #F2F2F2;
-    }
-    #menu a:hover {
-        border-bottom: 3px solid #0065FC;
+        padding-bottom: 10px;     
     }
     #menu1 {
+        border-bottom: 3px solid #0065FC;
         border-top: none; 
+    }
+    #menu2 {
+        border-bottom: 3px solid #F2F2F2;
     }
     #choixfiltres {
         flex-wrap: wrap;       
